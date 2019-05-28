@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_05_28_103415) do
+ActiveRecord::Schema.define(version: 2019_05_28_152406) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -57,6 +57,7 @@ ActiveRecord::Schema.define(version: 2019_05_28_103415) do
     t.string "status", null: false
     t.string "status_description"
     t.string "response_code"
+    t.string "recipient_phone_number"
   end
 
   create_table "mpesa_transactions", force: :cascade do |t|

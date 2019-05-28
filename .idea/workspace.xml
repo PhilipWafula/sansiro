@@ -2,59 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2074074-1cbd-47a8-8466-f382c95193d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/philip.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/avatar_default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/admin/area_chart.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/admin/dashboard.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/admin/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/_cards.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/_charts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/_dropdowns.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/_error.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/_global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/_login.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/_navs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/_utilities.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/navs/_global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/navs/_sidebar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/navs/_topbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/utilities/_animation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/utilities/_background.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/utilities/_border.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/utilities/_display.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/utilities/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/utilities/_notification.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/utilities/_progress.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/utilities/_rotate.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/utilities/_text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/frontend/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/frontend/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/frontend/camera.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/frontend/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/admin_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/frontend_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/process_transaction_service.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/admin/navs/_footer.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/admin/navs/_sidenav.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/admin/navs/_topbar.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/frontend/home/index-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/frontend/home/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/frontend/home/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/workers/bulk_sms_worker.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/messaging.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/secrets.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/sidekiq.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20190526155428_remove_tip_recipient_in.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20190527080813_add_null_false_to_tip_date_column_in_admin_tips.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/bulk_sms.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/bulk_sms/africas_talking_sms.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20190510104327_devise_create_admins.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20190510104327_devise_create_admins.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +66,22 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20190528152406_add_recipient_phone_number_to_api_responses.rb">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20190510104327_devise_create_admins.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -191,7 +155,6 @@
         <option value="$PROJECT_DIR$/app/controllers/admin/transactions_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/transaction.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20190510104327_devise_create_admins.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20190515083730_create_transactions.rb" />
         <option value="$PROJECT_DIR$/app/views/admin/navs/_sidenav.html.erb" />
         <option value="$PROJECT_DIR$/app/services/process_transaction_service.rb" />
@@ -207,6 +170,7 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/frontend.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/frontend/style.css" />
         <option value="$PROJECT_DIR$/app/views/frontend/home/index.html.erb" />
+        <option value="$PROJECT_DIR$/db/migrate/20190510104327_devise_create_admins.rb" />
       </list>
     </option>
   </component>
@@ -230,96 +194,6 @@
             <path>
               <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="bet_app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="workers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="bulk_sms" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -557,12 +431,12 @@
       <workItem from="1558974409524" duration="2693000" />
       <workItem from="1558983778890" duration="7126000" />
       <workItem from="1558996386756" duration="906000" />
-      <workItem from="1559034562614" duration="18476000" />
+      <workItem from="1559034562614" duration="19426000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="308900000" />
+    <option name="totallyTimeSpent" value="309850000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -575,8 +449,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="991" y="25" width="929" height="1055" extended-state="4" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.4276018" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3272933" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -627,14 +502,6 @@
     <SUITE FILE_PATH="coverage/bet_app@Rails_console__bet_app.rcov" NAME="Rails console: bet_app Coverage Results" MODIFIED="1559050579609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bet_app" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/admin/tips/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="95" lean-forward="true" selection-start-line="22" selection-start-column="95" selection-end-line="22" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/messaging.rb" />
     <entry file="file://$PROJECT_DIR$/config/messaging.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -730,13 +597,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20190523044656_create_admin_tips.rb">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190510104327_devise_create_admins.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20190527080813_add_null_false_to_tip_date_column_in_admin_tips.rb">
       <provider selected="true" editor-type-id="text-editor">
@@ -944,6 +804,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1197" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190528152406_add_recipient_phone_number_to_api_responses.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190510104327_devise_create_admins.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
         </state>
       </provider>
     </entry>
