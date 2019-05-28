@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BetApp</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'admin', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'admin', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%= yield %>
+    <% flash.each do |type, msg| %>
+      <div aria-live="polite" aria-atomic="true" class="d-flex justify-content-center align-items-center" style="min-height: 200px; min-width: 500px">
+        <div style="position: absolute; top: 0; right: 0;">
+          <ul class="list-style-none">
+            <li>
+              <% if type == 'notice' %>
+                <div class="toast bg-success text-white" data-delay="1000" role="alert" aria-live="assertive" aria-atomic="true">
+                  <div class="toast-body">
+                    <i class="fas fa-check-circle mr-2"></i> <%= msg %>
+                  </div>
+                </div>
+              <% end %>
+              <% if type == 'alert' %>
+                <div class="toast bg-danger text-white" data-delay="1000" role="alert" aria-live="assertive" aria-atomic="true">
+                  <div class="toast-body">
+                    <i class="fas fa-times-circle mr-2"></i> <%= msg %>
+                  </div>
+                </div>
+              <% end %>
+            </li>
+          </ul>
+        </div>
+      </div>
+    <% end %>
+    <script>
+        $('.toast').toast('show');
+    </script>
+
+
+  </body>
+</html>

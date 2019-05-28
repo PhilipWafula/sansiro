@@ -1,0 +1,23 @@
+// Place all the styles related to the admin/dashboard controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "variables";
+
+// Import Bootstrap
+@import "bootstrap";
+
+@import "global";
+// Import Custom SB Admin 2 Mixins and Components
+@import "mixins.scss";
+@import "global.scss";
+@import "utilities.scss";
+
+// Custom Components
+@import "dropdowns.scss";
+@import "navs.scss";
+@import "buttons.scss";
+@import "cards.scss";
+@import "charts.scss";
+@import "login.scss";
+@import "error.scss";
+@import "footer.scss";

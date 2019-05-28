@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  service_name: MyString
+  business_number: 
+  transaction_reference: MyString
+  k2_transaction_id: 
+
+two:
+  service_name: MyString
+  business_number: 
+  transaction_reference: MyString
+  k2_transaction_id: 
