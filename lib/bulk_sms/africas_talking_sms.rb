@@ -15,6 +15,7 @@ module BulkSms
       gateway_params = {
         username: Rails.application.secrets.sms_gateway_username,
         message: message,
+        from: 'SANSIRO',
         to: recipient
       }
       request = Typhoeus::Request.new(Rails.application.secrets.sms_gateway_endpoint,

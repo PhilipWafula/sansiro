@@ -4,6 +4,7 @@ require 'yajl'
 
 class Admin::MpesaTransactionsController < ApplicationController
   protect_from_forgery with: :null_session
+  before_action :authenticate_admin!
   layout 'admin/application'
 
   # GET /mpesa_transactions

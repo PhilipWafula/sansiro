@@ -2,6 +2,7 @@
 
 class Admin::MarketingCampaignsController < ApplicationController
   layout 'admin/application'
+  before_action :authenticate_admin!
   def index
     respond_to do |format|
       format.html

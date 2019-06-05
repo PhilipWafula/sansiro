@@ -2,8 +2,8 @@
 
 class Admin::TipsController < ApplicationController
   before_action :set_admin_tip, only: %i[show edit update destroy]
-  layout 'admin/application'
   before_action :authenticate_admin!
+  layout 'admin/application'
   def index
     respond_to do |format|
       format.html

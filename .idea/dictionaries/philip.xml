@@ -15,6 +15,7 @@
       <w>omniauth</w>
       <w>plpgsql</w>
       <w>rubocop</w>
+      <w>sansiro</w>
       <w>sidekiq</w>
       <w>topbar</w>
       <w>turbolinks</w>
