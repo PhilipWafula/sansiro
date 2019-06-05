@@ -1,0 +1,44 @@
+<% notifications = %w(notice success warning alert error)%>
+<% flash.to_h.with_indifferent_access.slice(*notifications).each do |type, msg| %>
+  <div aria-live="polite" aria-atomic="true" class="d-flex justify-content-center align-items-center" style="min-height: 200px; min-width: 500px">
+    <div style="position: absolute; top: 0; right: 0;">
+      <ul class="list-style-none">
+        <li>
+          <% if type == 'notice' %>
+            <div class="toast bg-info text-white" data-delay="1000" role="alert" aria-live="assertive" aria-atomic="true">
+              <div class="toast-body">
+                <i class="fas fa-check-circle mr-2"></i> <%= msg %>
+              </div>
+            </div>
+          <%elsif type == 'success'%>
+            <div class="toast bg-success text-white" data-delay="1000" role="alert" aria-live="assertive" aria-atomic="true">
+              <div class="toast-body">
+                <i class="fas fa-times-circle mr-2"></i> <%= msg %>
+              </div>
+            </div>
+          <% elsif type == 'alert' %>
+            <div class="toast bg-danger text-white" data-delay="1000" role="alert" aria-live="assertive" aria-atomic="true">
+              <div class="toast-body">
+                <i class="fas fa-times-circle mr-2"></i> <%= msg %>
+              </div>
+            </div>
+          <%elsif type == 'warning'%>
+            <div class="toast bg-warning text-white" data-delay="1000" role="alert" aria-live="assertive" aria-atomic="true">
+              <div class="toast-body">
+                <i class="fas fa-times-circle mr-2"></i> <%= msg %>
+              </div>
+            </div>
+          <% else  %>
+            <div class="bs-example-popovers">
+              <div class="alert alert-danger alert-dismissible fade in" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span>
+                </button>
+                <strong>Alert:</strong> <%= "#{msg}" %>
+              </div>
+            </div>
+          <% end %>
+        </li>
+      </ul>
+    </div>
+  </div>
+<% end %>

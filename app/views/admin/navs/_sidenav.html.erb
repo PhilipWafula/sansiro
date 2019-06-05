@@ -18,6 +18,23 @@
   </li>
 
   <li class="nav-item">
+    <%= link_to 'Transactions', class:'nav-link collapsed', data: {toggle: 'collapse', target: '#collapseTransactions'}, aria: {expanded: 'true', controls: 'collapsePages'} do %>
+      <i class="fas fa-fw fa-clipboard-list"></i> <span>Transactions</span>
+    <% end %>
+    <div id="collapseTransactions" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+      <div class="py-2 collapse-inner">
+        <%= link_to admin_mpesa_transactions_path, class: 'nav-link collapse-item' do %>
+          <span>Scheduled Transactions</span>
+        <% end %>
+
+        <%= link_to admin_pending_transactions_path, class: 'nav-link collapse-item' do %>
+          <span>Pending Transactions</span>
+        <% end %>
+      </div>
+    </div>
+  </li>
+
+  <li class="nav-item">
     <%= link_to admin_tips_path, class: 'nav-link' do%>
       <i class="fas fa-fw fa-lightbulb"></i>
       <span>Tips</span>
@@ -25,10 +42,20 @@
   </li>
 
   <li class="nav-item">
-    <%= link_to admin_mpesa_transactions_path, class: 'nav-link' do%>
-      <i class="fas fa-fw fa-clipboard-list"></i>
-      <span>Transactions</span>
+    <%= link_to 'Campaign Messages', class:'nav-link collapsed', data: {toggle: 'collapse', target: '#collapsePages'}, aria: {expanded: 'true', controls: 'collapsePages'} do %>
+      <i class="fas fa-fw fa-comment-alt"></i> <span>Campaign Messages</span>
     <% end %>
+    <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+      <div class="py-2 collapse-inner">
+        <%= link_to admin_marketing_campaigns_path, class: 'nav-link collapse-item' do %>
+          <span>My Campaigns</span>
+        <% end %>
+
+        <%= link_to new_admin_marketing_campaign_path, class: 'nav-link collapse-item' do %>
+          <span>Create Campaign</span>
+        <% end %>
+      </div>
+    </div>
   </li>
 
   <!-- Divider -->

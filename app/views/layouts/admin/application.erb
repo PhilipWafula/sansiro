@@ -1,44 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>BetApp</title>
     <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
-
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <%= stylesheet_link_tag 'admin', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'admin', 'data-turbolinks-track': 'reload' %>
+
+    <title><%= content_for?(:title) ? yield(:title) : 'Bet App' %></title>
+
   </head>
 
   <body>
-    <%= yield %>
-    <% flash.each do |type, msg| %>
-      <div aria-live="polite" aria-atomic="true" class="d-flex justify-content-center align-items-center" style="min-height: 200px; min-width: 500px">
-        <div style="position: absolute; top: 0; right: 0;">
-          <ul class="list-style-none">
-            <li>
-              <% if type == 'notice' %>
-                <div class="toast bg-success text-white" data-delay="1000" role="alert" aria-live="assertive" aria-atomic="true">
-                  <div class="toast-body">
-                    <i class="fas fa-check-circle mr-2"></i> <%= msg %>
-                  </div>
-                </div>
-              <% end %>
-              <% if type == 'alert' %>
-                <div class="toast bg-danger text-white" data-delay="1000" role="alert" aria-live="assertive" aria-atomic="true">
-                  <div class="toast-body">
-                    <i class="fas fa-times-circle mr-2"></i> <%= msg %>
-                  </div>
-                </div>
-              <% end %>
-            </li>
-          </ul>
-        </div>
-      </div>
+  <div id="wrapper">
+
+    <% if admin_signed_in? %>
+      <!--Sidenav-->
+      <%= render 'admin/navs/sidenav' %>
+      <!--Sidenav end-->
     <% end %>
-    <script>
-        $('.toast').toast('show');
-    </script>
 
-
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+      <!-- Main Content -->
+      <div id="content">
+        <% if admin_signed_in? %>
+          <!-- Topbar-->
+          <%= render 'admin/navs/topbar' %>
+          <!-- End of Topbar-->
+        <% end %>
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+          <%= render partial: 'layouts/flash_messages' %>
+          <%= yield %>
+          <!-- Scroll to Top Button-->
+          <a class="scroll-to-top rounded" onclick="scrollToTop()">
+            <i class="fas fa-angle-up"></i>
+          </a>
+        </div>
+        <!-- container-fluid -->
+      </div>
+      <!-- End of Main Content -->
+      <!-- Footer content -->
+      <footer class="footer">
+        <%= render partial: 'admin/navs/footer' %>
+      </footer>
+      <!-- Footer content -->
+      <!-- Logout modal-->
+      <%= render partial: 'layouts/logout_modal' %>
+      <!--End of Logout-->
+    </div>
+    <!-- End of Content Wrapper -->
+  </div>
+    <%= javascript_include_tag 'admin', 'data-turbolinks-track': 'reload' %>
   </body>
 </html>

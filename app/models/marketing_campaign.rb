@@ -1,0 +1,2 @@
+class MarketingCampaign < ApplicationRecord
+end

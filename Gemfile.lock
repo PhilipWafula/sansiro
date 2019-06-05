@@ -76,6 +76,8 @@ GEM
       rack-test (>= 0.6.3)
       regexp_parser (~> 1.2)
       xpath (~> 3.2)
+    chart-js-rails (0.1.6)
+      railties (> 3.1)
     childprocess (1.0.1)
       rake (< 13.0)
     chromedriver-helper (2.1.1)
@@ -104,7 +106,6 @@ GEM
     ffi (1.10.0)
     font-awesome-sass (5.8.1)
       sassc (>= 1.11)
-    fusioncharts-rails (0.0.2)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
     httparty (0.16.1)
@@ -180,6 +181,11 @@ GEM
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.0.4)
       loofah (~> 2.2, >= 2.2.2)
+    rails_12factor (0.0.3)
+      rails_serve_static_assets
+      rails_stdout_logging
+    rails_serve_static_assets (0.0.5)
+    rails_stdout_logging (0.0.5)
     railties (5.2.3)
       actionpack (= 5.2.3)
       activesupport (= 5.2.3)
@@ -286,11 +292,11 @@ DEPENDENCIES
   bootstrap4-datetime-picker-rails
   byebug
   capybara (>= 2.15)
+  chart-js-rails
   chromedriver-helper
   coffee-rails (~> 4.2)
   devise
   font-awesome-sass (~> 5.8.1)
-  fusioncharts-rails
   jbuilder (~> 2.5)
   jquery-datatables
   jquery-rails
@@ -299,6 +305,7 @@ DEPENDENCIES
   phony (~> 2.15, >= 2.15.21)
   puma (~> 3.11)
   rails (~> 5.2.3)
+  rails_12factor
   rubocop (~> 0.66.0)
   sass-rails (~> 5.0)
   selenium-webdriver

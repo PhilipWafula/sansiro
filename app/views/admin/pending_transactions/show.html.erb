@@ -1,0 +1,62 @@
+<%= render partial: 'layouts/flash_messages' %>
+
+<div class="row">
+  <div class="col-12">
+    <div class="card shadow mb-4">
+      <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+        <h6 class="m-0 font-weight-bold text-primary">Scheduled Transaction</h6>
+        <button data-toggle="dropdown" class="btn btn-default btn-sm dropdown-toggle" type="button" aria-expanded="false" data-placement="left" title="Actions">
+          <i class="fa fa-fw fa-cog"></i> &nbsp;<span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu pull-right">
+          <li style="padding-top: 4px; padding-left: 7px">
+            <a>Print Transaction</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card-body">
+        <div class="x_content"><br />
+          <div class="form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-20">Transaction ID</label>
+            <%= @admin_pending_transaction.id %>
+          </div><br>
+          <div class="form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-20">First Name</label>
+            <%= @admin_pending_transaction.first_name %>
+          </div><br>
+
+          <div class="form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-20">Last Name</label>
+            <%= @admin_pending_transaction.last_name %>
+          </div><br>
+
+          <div class="form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-20">Amount</label>
+            <%= @admin_pending_transaction.amount %>
+          </div><br>
+
+          <div class="form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-20">Package</label>
+            <%= @admin_pending_transaction.subscription_package %>
+          </div><br>
+
+          <div class="form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-20">Recipient</label>
+            <%= @admin_pending_transaction.sender_phone %>
+          </div><br>
+
+          <div class="form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-20">Timestamp</label>
+            <%= @admin_pending_transaction.transaction_timestamp %>
+          </div><br>
+
+          <div class="form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-20">Message Status</label>
+            <%= @admin_pending_transaction.child_message_status %>
+          </div><br>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

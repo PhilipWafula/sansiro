@@ -14,13 +14,16 @@
 //= require activestorage
 //= require turbolinks
 //= require jquery
-//= require admin/jquery
-//= require admin/dashboard
-//= require admin/tips
-//= require admin/area_chart
 //= require popper
 //= require datatables
 //= require bootstrap-sprockets
 //= require moment
 //= require tempusdominus-bootstrap-4
-//= require_tree .
+//= require admin/marketing_campaigns
+//= require admin/dashboard
+//= require admin/pending_transactions
+//= require admin/mpesa_transactions
+//= require admin/tips
+//= require Chart.min
+
+

@@ -6,8 +6,11 @@ Rails.application.routes.draw do
     root to: 'dashboard#index'
     resource :dashboard, only: :index
     resources :tips
-    resources :mpesa_transactions
+    resources :mpesa_transactions, only: %i[index show]
+    resources :pending_transactions, only: %i[index show]
+    resources :marketing_campaigns
     post 'mpesa_transactions/receive', to: 'mpesa_transactions#receive'
+    # match 'pending_transactions/:id/retry_transaction', to: 'pending_transactions#retry_transaction', as: :retry_transaction
   end
 
   # frontend routes

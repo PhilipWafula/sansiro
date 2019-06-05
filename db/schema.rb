@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_05_28_152406) do
+ActiveRecord::Schema.define(version: 2019_06_05_055147) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -53,30 +53,62 @@ ActiveRecord::Schema.define(version: 2019_05_28_152406) do
 
   create_table "api_responses", force: :cascade do |t|
     t.string "request_identifier", null: false
-    t.string "type"
+    t.string "message_type"
     t.string "status", null: false
     t.string "status_description"
     t.string "response_code"
     t.string "recipient_phone_number"
+    t.datetime "message_sent_at"
+    t.string "parent_transaction_reference"
+  end
+
+  create_table "marketing_campaigns", force: :cascade do |t|
+    t.string "message_body"
+    t.string "message_recipient"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "mpesa_transactions", force: :cascade do |t|
     t.string "service_name"
     t.decimal "business_number"
     t.string "transaction_reference"
-    t.decimal "k2_transaction_id"
+    t.decimal "internal_transaction_id"
     t.datetime "transaction_timestamp"
+    t.string "account_number"
     t.string "transaction_type"
-    t.decimal "transaction_sender_phone"
+    t.decimal "sender_phone"
     t.string "first_name"
     t.string "middle_name"
     t.string "last_name"
-    t.decimal "transaction_amount"
-    t.string "transaction_currency"
-    t.string "transaction_signature"
+    t.decimal "amount"
+    t.string "currency"
+    t.string "signature"
+    t.string "subscription_package"
+    t.string "child_message_status"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "pending_transactions", force: :cascade do |t|
+    t.string "service_name"
+    t.decimal "business_number"
+    t.string "transaction_reference"
+    t.decimal "internal_transaction_id"
+    t.datetime "transaction_timestamp"
+    t.string "account_number"
+    t.string "transaction_type"
+    t.decimal "sender_phone"
+    t.string "first_name"
+    t.string "middle_name"
+    t.string "last_name"
+    t.decimal "amount"
+    t.string "currency"
+    t.string "signature"
     t.string "subscription_package"
+    t.string "child_message_status"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   add_foreign_key "admin_tips", "admins"

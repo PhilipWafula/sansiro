@@ -8,55 +8,35 @@ class Admin::MpesaTransactionsController < ApplicationController
 
   # GET /mpesa_transactions
   def index
-    @transactions = MpesaTransaction.all
-    render json: @transactions
+    respond_to do |format|
+      format.html
+      format.json do
+        render json: MpesaTransactionsDatatable.new(params)
+      end
+    end
+    @admin_mpesa_transactions = MpesaTransaction.all
   end
 
   # GET /mpesa_transactions/:id
   def show
-    render json: @transaction
-  end
-
-  # POST /mpesa_transactions
-  def new
-    @transaction = MpesaTransaction.new
-  end
-
-  # POST /mpesa_transactions
-  def create
-    @transaction = MpesaTransaction.new(transaction_params)
-
-    if @transaction.save
-      render json: @transaction, status: :created, location: @transaction
-    else
-      render json: @transaction.errors, status: :unprocessable_entity
-    end
-  end
-
-  # PATCH/PUT /mpesa_transactions/1
-  def update
-    if @transaction.update(transaction_params)
-      render json: @transaction
-    else
-      render json: @transaction.errors, status: :unprocessable_entity
-    end
-  end
-
-  # DELETE /transaction/1
-  def destroy
-    @transaction.destroy
+    set_admin_mpesa_transaction
   end
 
   def receive
     if request.blank?
       render json: { message: 'Bad Request' }, status: :bad_request
     else
-      # ProcessTransactionService.new(request).process_request
+      transaction_request = AuthorizeK2Service.new(request).authenticate_request
+      ProcessTransactionService.new(transaction_request).process_request
       render json: { message: 'ok' }, status: :ok
     end
   end
 
   private
+
+  def set_admin_mpesa_transaction
+    @admin_mpesa_transaction = MpesaTransaction.find(params[:id])
+  end
 
   def transaction_params
     params.require(:mpesa_transaction).permit(:service_name,
@@ -74,6 +54,7 @@ class Admin::MpesaTransactionsController < ApplicationController
                                               :currency,
                                               :signature,
                                               :message_sent,
-                                              :package)
+                                              :package,
+                                              :child_message_status)
   end
 end

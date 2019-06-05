@@ -1,0 +1,2 @@
+class PendingTransaction < ApplicationRecord
+end

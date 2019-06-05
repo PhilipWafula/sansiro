@@ -58,15 +58,15 @@
           padding: 0.5rem 1rem;
           margin: 0 0.5rem;
           display: block;
-          color: $gray-900;
+          color: $gray-500;
           text-decoration: none;
           border-radius: $border-radius;
           white-space: nowrap;
           &:hover {
-            background-color: $gray-200;
+            //background-color: $gray-200;
           }
           &:active {
-            background-color: $gray-300;
+            //background-color: $gray-300;
           }
           &.active {
             color: $primary;

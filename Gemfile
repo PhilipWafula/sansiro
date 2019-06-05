@@ -5,10 +5,10 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.0'
 
+gem 'chart-js-rails'
 gem 'ajax-datatables-rails'
 gem 'bcrypt'
 gem 'bootstrap4-datetime-picker-rails'
-gem 'fusioncharts-rails'
 gem 'jquery-datatables'
 gem 'phony', '~> 2.15', '>= 2.15.21'
 gem 'rubocop', '~> 0.66.0', require: false
@@ -82,3 +82,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
+
+gem 'rails_12factor', group: :production

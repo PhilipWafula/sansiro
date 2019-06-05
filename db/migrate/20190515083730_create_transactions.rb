@@ -4,16 +4,19 @@ class CreateTransactions < ActiveRecord::Migration[5.2]
       t.string :service_name
       t.numeric :business_number
       t.string :transaction_reference
-      t.numeric :k2_transaction_id
+      t.numeric :internal_transaction_id
       t.timestamp :transaction_timestamp
+      t.string :account_number
       t.string :transaction_type
-      t.numeric :transaction_sender_phone
+      t.numeric :sender_phone
       t.string :first_name
       t.string :middle_name
       t.string :last_name
-      t.numeric :transaction_amount
-      t.string :transaction_currency
-      t.string :transaction_signature
+      t.numeric :amount
+      t.string :currency
+      t.string :signature
+      t.string :subscription_package
+      t.string :child_message_status
 
       t.timestamps
     end
