@@ -24,7 +24,8 @@ class Admin::MarketingCampaignsController < ApplicationController
   def create
     @marketing_campaign = MarketingCampaign.new(marketing_campaign_params)
 
-    BulkSmsWorker.perform_async(@marketing_campaign.message_recipient, @marketing_campaign.message_body)
+    # BulkSmsWorker.perform_async(@marketing_campaign.message_recipient, @marketing_campaign.message_body)
+    BulkSms::AfricasTalkingSms.new.relay_message(@marketing_campaign.message_recipient, @marketing_campaign.message_body)
 
     if @marketing_campaign.save
       respond_to do |format|
