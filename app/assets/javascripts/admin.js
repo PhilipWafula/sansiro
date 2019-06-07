@@ -25,5 +25,6 @@
 //= require admin/mpesa_transactions
 //= require admin/tips
 //= require Chart.min
+//= require dropzone
 
 

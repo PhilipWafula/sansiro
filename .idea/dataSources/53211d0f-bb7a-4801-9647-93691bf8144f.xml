@@ -11,12 +11,12 @@
       <IntrospectionStateNumber>2434</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
-      <Relations>sequence|table|76895|76897|1
-sequence|table|77061|77063|1
-sequence|table|77080|77082|1
+      <Relations>sequence|table|77080|77082|1
 sequence|table|77091|77093|1
 sequence|table|77108|77110|1
 sequence|table|77119|77121|1
+sequence|table|77061|77063|1
+sequence|table|76895|76897|1
 </Relations>
     </database>
     <database id="3" parent="1" name="bet_app_test">

@@ -1,3 +1,4 @@
+
 $ ->
   marketingCampaignsTable = $('#marketingCampaignsTable').dataTable
     processing: true
@@ -21,6 +22,29 @@ $ ->
     if id
       url = '/admin/marketing_campaigns/' + id
       document.location.href = url
+
+  # recipients_dropzone = $('div#hello').dropzone url: '/admin/multiple_recipients_campaign'
+
+  Dropzone.autoDiscover = false;
+
+  $('[data-plugin="dropzone"]').each ->
+    actionUrl = '/admin/multiple_recipients_campaign'
+    previewContainer = $(this).data('previewsContainer')
+    opts = url: actionUrl
+    if previewContainer
+      opts['previewsContainer'] = previewContainer
+    uploadPreviewTemplate = $(this).data('uploadPreviewTemplate')
+    if uploadPreviewTemplate
+      opts['previewTemplate'] = $(uploadPreviewTemplate).html()
+    # uploadButton = $(this).data('uploadButton')
+    # if uploadButton
+    #  opts['autoQueue'] = false
+    dropzoneEl = $(this).dropzone(opts)
+
+
+    return
+  return
+
 
 
 $('.toast').toast 'show'

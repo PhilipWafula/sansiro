@@ -1,0 +1,54 @@
+<%= form_for :marketing_campaigns,
+             url: {controller: 'marketing_campaigns',
+                   action: 'multiple_recipients_campaign'},
+             html: {multipart: true} do |campaign| %>
+
+  <div class="form-group">
+    <%= campaign.label :message_body, 'Message' %>
+    <%= campaign.text_area :message_body, class: 'form-control', rows: '5' %>
+  </div>
+
+  <div class="form-group">
+    <%= campaign.label :recipients_file, 'Upload recipients' %>
+    <%= campaign.file_field :recipients_file %>
+  </div>
+
+  <div class="form-group">
+    <%= campaign.submit "Upload", id: 'startButton', class: "btn btn-primary" %>
+  </div>
+
+<% end %>
+
+<!--<div id="recipients_dropzone" class="dropzone form-group"
+       data-plugin="dropzone"
+       data-previews-container="#file-previews"
+       data-upload-preview-template="#uploadPreviewTemplate"
+       data-upload-button="#startButton">
+    <div class="dz-message needsclick">
+      <i class="fas fa-cloud-upload-alt" style="font-size: 2em"></i>
+      <h6>Drop files here or click to upload.</h6>
+    </div>
+  </div>
+<div class="dropzone-previews mt-3" id="file-previews"></div>
+
+<div class="d-none" id="uploadPreviewTemplate">
+  <div class="card mt-1 mb-0 shadow-none border">
+    <div class="p-2">
+      <div class="row align-items-center">
+        <div class="col-auto">
+          <img data-dz-thumbnail class="avatar-sm rounded bg-light" alt="" src="">
+        </div>
+        <div class="col pl-0">
+          <a href="javascript:void(0);" class="text-muted font-weight-bold" data-dz-name></a>
+          <p class="mb-0" data-dz-size></p>
+        </div>
+        <div class="col-auto">
+
+          <a href="" class="btn btn-link btn-lg text-muted" data-dz-remove>
+            <i class="fas fa-fw fa-times"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>-->

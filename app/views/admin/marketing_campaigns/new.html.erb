@@ -1,5 +1,27 @@
-<h1>New Admin Marketing Campaign</h1>
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+  <h1 class="h3 mb-0 text-gray-800">Create Campaigns</h1>
+</div>
 
-<%= render 'form', admin_marketing_campaign: @admin_marketing_campaign %>
-
-<%= link_to 'Back', admin_marketing_campaigns_path %>
+<div class="row">
+  <div class="col-lg-6">
+    <div class="card shadow mb-4">
+      <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">Single Recipient Campaign</h6>
+      </div>
+      <div class="card-body">
+        <%= render partial: 'form' %>
+      </div>
+    </div>
+  </div>
+  <!-- confirm recipients section-->
+  <div class="col-lg-6">
+    <div class="card shadow mb-4">
+      <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">Multiple Recipient Campaign</h6>
+      </div>
+      <div class="card-body">
+        <%= render partial: 'recipients_dropzone' %>
+      </div>
+    </div>
+  </div>
+</div>

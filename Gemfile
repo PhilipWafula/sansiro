@@ -5,12 +5,13 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.0'
 
-gem 'chart-js-rails'
 gem 'ajax-datatables-rails'
 gem 'bcrypt'
 gem 'bootstrap4-datetime-picker-rails'
+gem 'chart-js-rails'
+gem 'dropzonejs-rails'
 gem 'jquery-datatables'
-gem 'phony', '~> 2.15', '>= 2.15.21'
+gem 'phony_rails'
 gem 'rubocop', '~> 0.66.0', require: false
 gem 'sidekiq'
 gem 'typhoeus'
