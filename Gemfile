@@ -14,6 +14,7 @@ gem 'jquery-datatables'
 gem 'phony_rails'
 gem 'rubocop', '~> 0.66.0', require: false
 gem 'sidekiq'
+gem 'smarter_csv'
 gem 'typhoeus'
 gem 'yajl-ruby', require: 'yajl'
 # Fontawesome
