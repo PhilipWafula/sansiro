@@ -8,7 +8,7 @@ class CreatePendingTransactions < ActiveRecord::Migration[5.2]
       t.timestamp :transaction_timestamp
       t.string :account_number
       t.string :transaction_type
-      t.numeric :sender_phone
+      t.string :sender_phone
       t.string :first_name
       t.string :middle_name
       t.string :last_name

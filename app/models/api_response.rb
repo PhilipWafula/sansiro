@@ -1,25 +1,26 @@
 # frozen_string_literal: true
 
 class ApiResponse < ApplicationRecord
-  # after_create_commit :create_association
+  after_create_commit :update_transaction_status
 
-  # private
+  private
 
-  # def create_association
-  # get last api response
-  # @api_response = ApiResponse.last
-
-  # get date and recipient status
-  # api_response_date = @api_response.message_sent_at.to_date
-  # api_response_recipient = @api_response.recipient_phone_number
-  # api_response_status = @api_response.status
-  # @parent_transaction = MpesaTransaction.where(created_at: api_response_date.midnight..api_response_date.end_of_day, recipient_phone_number: api_response_recipient)
-  # check transactions database for matching date and recipient
-  # unless @parent_transaction.blank?
-  #  result_count = @parent_transaction.transaction_reference.count
-  #  if result_count > 1 && api_response_status == 'Successful'
-
-  #  end
-  # end
-  # end
+  def update_transaction_status
+    # check for tip API response
+    tip_response = ApiResponse.find_by(message_type: 'SendBettingTip')
+    unless tip_response.blank?
+      parent_transaction = MpesaTransaction.find_by(transaction_reference: tip_response.parent_transaction_reference)
+      parent_transaction_status = parent_transaction.status_description
+      parent_transaction.child_message_status = parent_transaction_status
+      parent_transaction.update!
+    end
+    # check for marketing campaign API response
+    marketing_response = ApiResponse.find_by(message_type: 'SendMarketingCampaign')
+    unless marketing_response.blank?
+      parent_transaction = MarketingCampaign.find_by(campaign_ref: marketing_response.parent_transaction_reference)
+      parent_transaction_status = parent_transaction.status_description
+      parent_transaction.child_message_status = parent_transaction_status
+      parent_transaction.update!
+    end
+  end
 end

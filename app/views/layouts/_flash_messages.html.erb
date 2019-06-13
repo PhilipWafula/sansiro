@@ -1,6 +1,5 @@
 <% notifications = %w(notice success warning alert error)%>
 <% flash.to_h.with_indifferent_access.slice(*notifications).each do |type, msg| %>
-  <div aria-live="polite" aria-atomic="true" class="d-flex justify-content-center align-items-center" style="min-height: 200px; min-width: 500px">
     <div style="position: absolute; top: 0; right: 0;">
       <ul class="list-style-none">
         <li>
@@ -40,5 +39,5 @@
         </li>
       </ul>
     </div>
-  </div>
+
 <% end %>

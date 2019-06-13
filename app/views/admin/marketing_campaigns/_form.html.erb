@@ -1,14 +1,13 @@
 <%= form_for [:admin, @marketing_campaign], action: :post do |campaign| %>
-  <%= render partial: 'layouts/flash_messages' %>
-
-  <div class="form-group mb-3">
-    <%= campaign.label :message_recipient, 'Recipient (+254)701245678' %>
-    <%= campaign.text_field :message_recipient, class: 'form-control' %>
-  </div>
 
   <div class="form-group mb-3">
     <%= campaign.label :message_body, 'Message' %>
-    <%= campaign.text_area :message_body, class: 'form-control', rows: '5' %>
+    <%= campaign.text_area :message_body, class: 'form-control', rows: '5', required: true %>
+  </div>
+
+  <div class="form-group">
+    <%= campaign.label :recipients_file, 'Upload recipients' %>
+    <%= campaign.file_field :recipients_file, allow: 'text/csv', required: true%>
   </div>
 
   <div class="actions">

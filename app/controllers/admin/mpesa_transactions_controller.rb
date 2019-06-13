@@ -1,10 +1,12 @@
 # frozen_string_literal: true
 
 require 'yajl'
+require 'base64'
+require 'openssl'
 
 class Admin::MpesaTransactionsController < ApplicationController
-  protect_from_forgery with: :null_session
-  before_action :authenticate_admin!
+  protect_from_forgery with: :null_session, only: :receive
+  before_action :authenticate_admin!, except: :receive
   layout 'admin/application'
 
   # GET /mpesa_transactions
@@ -27,9 +29,10 @@ class Admin::MpesaTransactionsController < ApplicationController
     if request.blank?
       render json: { message: 'Bad Request' }, status: :bad_request
     else
-      transaction_request = AuthorizeK2Service.new(request).authenticate_request
-      ProcessTransactionService.new(transaction_request).process_request
-      render json: { message: 'ok' }, status: :ok
+      # REVISIT THIS TO VALIDATE K2 REQUESTS
+      # Get request body
+      request_body = Yajl::Parser.parse(request.body.string.as_json)
+      ProcessTransactionService.new(request_body).process_request
     end
   end
 

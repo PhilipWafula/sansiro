@@ -4,7 +4,6 @@
       <div class="card o-hidden border-0 shadow-lg my-5">
         <div class="card-body p-5">
           <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
-            <form>
               <div class="form-group">
                 <%= f.label :email %><br />
                 <%= f.email_field :email, autofocus: true, autocomplete: "email", class: 'form-control' %>
@@ -25,7 +24,6 @@
               <div class="actions">
                 <%= f.submit "Log in", class: 'btn btn-primary btn-block' %>
               </div>
-            </form>
             <%- if devise_mapping.registerable? && controller_name != 'registrations' %>
               <%= link_to "Sign up", new_registration_path(resource_name) %><br />
             <% end %>

@@ -86,6 +86,6 @@ class Admin::TipsController < ApplicationController
   end
 
   def total_revenue(regular, premium, jackpot)
-    ((50 * regular) + (150 * premium) + (300 * jackpot))
+    ((50 * regular) + (100 * premium) + (80 * jackpot))
   end
 end

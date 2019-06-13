@@ -55,6 +55,8 @@
             <label class="control-label col-md-3 col-sm-3 col-xs-20">Message Status</label>
             <%= @admin_pending_transaction.child_message_status %>
           </div><br>
+
+          <%= link_to 'Retry', admin_retry_transaction_path(@admin_pending_transaction), class: 'btn btn-primary', method: :post %>
         </div>
       </div>
     </div>

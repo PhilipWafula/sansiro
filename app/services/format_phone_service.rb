@@ -1,4 +1,6 @@
-class PhoneService
+# frozen_string_literal: true
+
+class FormatPhoneService
   # Returns the E.164 International format of a phone number
   # The phony-rails gem is used.
   # @param - sign - optional flag to exclude the '+' sign at the beginning

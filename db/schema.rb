@@ -19,10 +19,10 @@ ActiveRecord::Schema.define(version: 2019_06_05_055147) do
     t.string "tip_content"
     t.string "tip_package"
     t.date "tip_date", null: false
+    t.bigint "admin_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.bigint "admin_id"
-    t.index ["admin_id"], name: "index_admin_tips_on_admin_id"
+    t.index ["admin_id"], name: "index_admin_tips_on_admin_id", unique: true
   end
 
   create_table "admins", force: :cascade do |t|
@@ -63,6 +63,7 @@ ActiveRecord::Schema.define(version: 2019_06_05_055147) do
   end
 
   create_table "marketing_campaigns", force: :cascade do |t|
+    t.string "campaign_ref"
     t.string "message_body"
     t.string "message_recipient"
     t.datetime "created_at", null: false
@@ -77,7 +78,7 @@ ActiveRecord::Schema.define(version: 2019_06_05_055147) do
     t.datetime "transaction_timestamp"
     t.string "account_number"
     t.string "transaction_type"
-    t.decimal "sender_phone"
+    t.string "sender_phone"
     t.string "first_name"
     t.string "middle_name"
     t.string "last_name"
@@ -98,7 +99,7 @@ ActiveRecord::Schema.define(version: 2019_06_05_055147) do
     t.datetime "transaction_timestamp"
     t.string "account_number"
     t.string "transaction_type"
-    t.decimal "sender_phone"
+    t.string "sender_phone"
     t.string "first_name"
     t.string "middle_name"
     t.string "last_name"
