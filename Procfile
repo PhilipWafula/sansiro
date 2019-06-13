@@ -1,1 +1,1 @@
-bet_app: bundle exec sidekiq -c 2
+bet_app: bundle exec sidekiq -C config/sidekiq.yml
