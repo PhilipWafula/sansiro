@@ -13,14 +13,14 @@ module BulkSms
     def relay_message(recipient, message)
       api_response = nil
       gateway_params = {
-        username: Rails.application.secrets.sms_gateway_username,
+        username: Rails.application.credentials[Rails.env.to_sym][:sms_gateway_username],
         message: message,
         from: 'SANSIRO',
         to: recipient
       }
-      request = Typhoeus::Request.new(Rails.application.secrets.sms_gateway_endpoint,
+      request = Typhoeus::Request.new(Rails.application.credentials[Rails.env.to_sym][:sms_gateway_endpoint],
                                       method: :post,
-                                      headers: { Accept: 'application/json', ApiKey: Rails.application.secrets.sms_gateway_api_key },
+                                      headers: { Accept: 'application/json', ApiKey: Rails.application.credentials[Rails.env.to_sym][:sms_gateway_api_key] },
                                       connecttimeout: 10_000,   # milliseconds
                                       timeout: 10_000,          # milliseconds
                                       body: gateway_params)

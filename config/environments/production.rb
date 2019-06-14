@@ -81,14 +81,14 @@ Rails.application.configure do
   config.action_mailer.smtp_settings = {
     address: 'smtp.sendgrid.net',
     port: 587,
-    domain: Rails.application.secrets.mailer_domain_name,
+    domain: Rails.application.credentials[Rails.env.to_sym][:mailer_domain_name],
     authentication: :plain,
     enable_starttls_auto: true,
-    user_name: Rails.application.secrets.heroku_send_grid_username,
-    password: Rails.application.secrets.heroku_send_grid_password
+    user_name: Rails.application.credentials[Rails.env.to_sym][:heroku_send_grid_username],
+    password: Rails.application.credentials[Rails.env.to_sym][:heroku_send_grid_password]
   }
   # ActionMailer Config
-  config.action_mailer.default_url_options = { host: Rails.application.secrets.mailer_domain_name }
+  config.action_mailer.default_url_options = { host: Rails.application.credentials[Rails.env.to_sym][:mailer_domain_name] }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.perform_deliveries = true
   config.action_mailer.raise_delivery_errors = false

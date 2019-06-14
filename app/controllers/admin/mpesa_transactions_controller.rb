@@ -33,6 +33,8 @@ class Admin::MpesaTransactionsController < ApplicationController
       # Get request body
       request_body = Yajl::Parser.parse(request.body.string.as_json)
       ProcessTransactionService.new(request_body).process_request
+
+      render json: { message: 'ok' }, status: :ok
     end
   end
 

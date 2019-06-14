@@ -39,14 +39,16 @@ class ProcessTransactionService
     transaction_reference = request['transaction_reference']
     message_recipient = request['sender_phone']
     child_message = Admin::Tip.where(tip_date: transaction_date, tip_package: subscription_package)
-    if child_message.blank?
+    if child_message.blank? && request['child_message_status'].blank?
       request['child_message_status'] = 'Pending'
       PendingTransaction.new(request).save!
-      BulkSmsWorker.perform_async(message_recipient, 'Your payment has been received and a tip is being processed. You will receive an SMS shortly.')
+    elsif request['child_message_status'] == 'Pending'
+      puts 'Pending Transaction'
+      flash.now[:alert] = 'The transaction is still on pending status, please add a tip corresponding to the transaction date.'
     else
       request['child_message_status'] = 'Scheduled'
-      MpesaTransaction.new(request).save!
       send_tip(message_recipient, child_message, transaction_reference)
+      MpesaTransaction.new(request).save!
     end
   end
 
