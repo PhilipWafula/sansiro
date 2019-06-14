@@ -27,5 +27,7 @@ class Admin::PendingTransactionsController < ApplicationController
     # remove id from hash
     # process retry transaction
     ProcessTransactionService.new(retry_transaction.except('id')).process_request
+
+    render json: { message: 'ok' }, status: :ok
   end
 end

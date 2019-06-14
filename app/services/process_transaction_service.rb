@@ -34,17 +34,22 @@ class ProcessTransactionService
   end
 
   def process_admin_tip(request)
+    # get transaction date
     transaction_date = request['transaction_timestamp'].to_date
+    # get subscription package
     subscription_package = request['subscription_package']
+    # get transaction reference
     transaction_reference = request['transaction_reference']
+    # get message recipient
     message_recipient = request['sender_phone']
-    child_message = Admin::Tip.where(tip_date: transaction_date, tip_package: subscription_package)
-    if child_message.blank? && request['child_message_status'].blank?
+    # get message
+    child_message = ''
+    # get tip is present
+    child_message = Admin::Tip.where(tip_date: transaction_date, tip_package: subscription_package).take!.tip_content unless Admin::Tip.where(tip_date: transaction_date, tip_package: subscription_package).blank?
+    if child_message.blank? && request['child_message_status'].blank? && request['child_message_status'] != 'Pending'
       request['child_message_status'] = 'Pending'
       PendingTransaction.new(request).save!
-    elsif request['child_message_status'] == 'Pending'
-      puts 'Pending Transaction'
-      flash.now[:alert] = 'The transaction is still on pending status, please add a tip corresponding to the transaction date.'
+      process_transaction_logger.info 'Pending transaction logged.'
     else
       request['child_message_status'] = 'Scheduled'
       send_tip(message_recipient, child_message, transaction_reference)
