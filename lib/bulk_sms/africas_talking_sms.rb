@@ -27,6 +27,11 @@ module BulkSms
       request.on_complete do |r|
         api_response = parse_response(r)
         africas_talking_logger.info("Received response for sms request to #{recipient} - #{r.inspect}")
+        # Quick fix  Logger
+        Rails.logger = Logger.new(STDOUT)
+        ActiveSupport::Logger.new("log/#{Rails.env}.log")
+        Rails.logger.level = Logger::DEBUG
+        Rails.logger.debug "Received response for sms request to #{recipient} - #{r.inspect}"
       end
       africas_talking_logger.info("Dispatching SMS to PRSP: #{request.inspect}")
       request.run
@@ -81,7 +86,11 @@ module BulkSms
 
     def africas_talking_logger
       @africas_talking_logger ||= if Rails.env == 'test'
-                                    Logger.new(STDERR)
+                                    # Quick fix  Logger
+                                    Rails.logger = Logger.new(STDOUT)
+                                    ActiveSupport::Logger.new("log/#{Rails.env}.log")
+                                    Rails.logger.level = Logger::DEBUG
+                                    Rails.logger.debug "Received response for sms request to #{recipient} - #{r.inspect}"
                                   else
                                     Logger.new("#{Rails.root}/log/africas_talking_sms.log")
                                   end
