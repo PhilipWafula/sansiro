@@ -10,6 +10,7 @@ $ ->
       url: $('#pendingTransactionsTable').data('source')
     pagingType: 'full_numbers'
     columns: [
+
       {data: 'id'}
       {data: 'first_name'}
       {data: 'last_name'}
@@ -26,3 +27,7 @@ $ ->
     if id
       url = '/admin/pending_transactions/' + id
       document.location.href = url
+
+  'createdRow': (row, data, index) ->
+    $('td:eq(0)', row).html '<td><a href=' + data[0] + '/edit><span class="fas fa-eye" aria-hidden="true"></span></a></td>'
+    return

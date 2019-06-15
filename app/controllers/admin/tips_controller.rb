@@ -19,7 +19,9 @@ class Admin::TipsController < ApplicationController
 
   # GET /admin/tips/1
   # GET /admin/tips/1.json
-  def show; end
+  def show
+    set_admin_tip
+  end
 
   # GET /admin/tips/new
   def new
@@ -27,7 +29,9 @@ class Admin::TipsController < ApplicationController
   end
 
   # GET /admin/tips/1/edit
-  def edit; end
+  def edit
+    set_admin_tip
+  end
 
   # POST /admin/tips
   # POST /admin/tips.json

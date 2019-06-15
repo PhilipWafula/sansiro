@@ -35,10 +35,20 @@
   </li>
 
   <li class="nav-item">
-    <%= link_to admin_tips_path, class: 'nav-link' do%>
-      <i class="fas fa-fw fa-lightbulb"></i>
-      <span>Tips</span>
+    <%= link_to 'Tips', class: 'nav-link collapsed',  data: {toggle: 'collapse', target: '#collapseTips'}, aria: {expanded: 'true', controls: 'collapsePages'} do%>
+      <i class="fas fa-fw fa-lightbulb"></i><span>Tips</span>
     <% end %>
+    <div id="collapseTips" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+      <div class="py-2 collapse-inner">
+        <%= link_to admin_tips_path, class: 'nav-link collapse-item' do %>
+          <span>Tips</span>
+        <% end %>
+
+        <%= link_to new_admin_tip_path, class: 'nav-link collapse-item' do %>
+          <span>Create Tip</span>
+        <% end %>
+      </div>
+    </div>
   </li>
 
   <li class="nav-item">

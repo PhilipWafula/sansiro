@@ -25,6 +25,11 @@ class Admin::MarketingCampaignsController < ApplicationController
     @marketing_campaign = MarketingCampaign.new
   end
 
+  # GET /admin/marketing/1/edit
+  def edit
+    @marketing_campaign = MarketingCampaign.find(params[:id])
+  end
+
   def create
     puts process_bulk_recipients(params)
   end

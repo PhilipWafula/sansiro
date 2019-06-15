@@ -1,4 +1,37 @@
-<p id="notice"><%= notice %></p>
+<%= render partial: 'layouts/flash_messages' %>
 
-<%= link_to 'Edit', edit_admin_tip_path(@admin_tip) %> |
-<%= link_to 'Back', admin_tips_path %>
+<div class="row">
+  <div class="col-12">
+    <div class="card shadow mb-4">
+      <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+        <h6 class="m-0 font-weight-bold text-primary">Transaction</h6>
+      </div>
+
+      <div class="card-body">
+        <div class="x_content"><br />
+          <div class="form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-20">Tip ID</label>
+            <%= @admin_tip.id %>
+          </div><br>
+          <div class="form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-20">Message</label>
+            <%= @admin_tip.tip_content %>
+          </div><br>
+
+          <div class="form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-20">Package</label>
+            <%= @admin_tip.tip_package %>
+          </div><br>
+
+          <div class="form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-20">Date</label>
+            <%= @admin_tip.tip_date %>
+            </div><br>
+
+          <%= link_to 'Edit', edit_admin_tip_path(@admin_tip), class: 'btn btn-primary' %>
+          <%= link_to 'Back', admin_tips_path, class: 'btn btn-primary' %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

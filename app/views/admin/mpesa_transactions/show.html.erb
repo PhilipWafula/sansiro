@@ -5,6 +5,48 @@
         <h6 class="m-0 font-weight-bold text-primary">Scheduled Transaction</h6>
       </div>
       <div class="card-body">
+        <div class="x_content"><br />
+          <div class="form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-20">Transaction ID</label>
+            <%= @admin_mpesa_transaction.id %>
+          </div><br>
+          <div class="form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-20">First Name</label>
+            <%= @admin_mpesa_transaction.first_name %>
+          </div><br>
+
+          <div class="form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-20">Last Name</label>
+            <%= @admin_mpesa_transaction.last_name %>
+          </div><br>
+
+          <div class="form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-20">Amount</label>
+            <%= @admin_mpesa_transaction.amount %>
+          </div><br>
+
+          <div class="form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-20">Package</label>
+            <%= @admin_mpesa_transaction.subscription_package %>
+          </div><br>
+
+          <div class="form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-20">Recipient</label>
+            <%= @admin_mpesa_transaction.sender_phone %>
+          </div><br>
+
+          <div class="form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-20">Timestamp</label>
+            <%= @admin_mpesa_transaction.transaction_timestamp %>
+          </div><br>
+
+          <div class="form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-20">Message Status</label>
+            <%= @admin_mpesa_transaction.child_message_status %>
+          </div><br>
+
+          <%= link_to 'Back', admin_mpesa_transactions_path, class: 'btn btn-primary' %>
+        </div>
       </div>
     </div>
   </div>

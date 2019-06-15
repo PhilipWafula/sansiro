@@ -30,7 +30,7 @@ module BulkSms
       end
       africas_talking_logger.info("Dispatching SMS to PRSP: #{request.inspect}")
       request.run
-      api_response
+      puts api_response
     end
 
     # Parses the response received from the sms gateway.
