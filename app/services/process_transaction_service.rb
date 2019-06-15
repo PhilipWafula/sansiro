@@ -51,6 +51,7 @@ class ProcessTransactionService
     child_message = Admin::Tip.where(tip_date: transaction_date, tip_package: subscription_package).take!.tip_content unless Admin::Tip.where(tip_date: transaction_date, tip_package: subscription_package).blank?
     if child_message.blank? && request['child_message_status'].blank? && request['child_message_status'] != 'Pending'
       request['child_message_status'] = 'Pending'
+      BulkSmsWorker.perform_async(message_recipient, 'Your payment has been received and tips will be sent shortly')
       PendingTransaction.new(request).save!
       process_transaction_logger.info 'Pending transaction logged.'
     else
