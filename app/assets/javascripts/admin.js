@@ -24,7 +24,10 @@
 //= require admin/pending_transactions
 //= require admin/mpesa_transactions
 //= require admin/tips
-//= require Chart.min
 //= require dropzone
+//= require chart.js/Chart.min
+//= require admin/chart-area-demo
+//= require admin/chart-bar-demo
+//= require admin/chart-pie-demo
 
 

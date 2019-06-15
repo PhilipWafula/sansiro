@@ -2,20 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2074074-1cbd-47a8-8466-f382c95193d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/admin/chart-area-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/admin/chart-bar-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/admin/chart-pie-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/chart.js/Chart.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/chart.js/Chart.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/chart.js/Chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/chart.js/Chart.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/bet_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bet_app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/admin/pending_transactions.coffee" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/admin/pending_transactions.coffee" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/admin/marketing_campaigns_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/marketing_campaigns_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/admin/tips_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/tips_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/marketing_campaigns/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/marketing_campaigns/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/mpesa_transactions/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/mpesa_transactions/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/navs/_sidenav.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/navs/_sidenav.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/pending_transactions/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/pending_transactions/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/tips/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/tips/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/tips/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/tips/edit.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/tips/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/tips/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/tips/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/tips/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/credentials.yml.enc" beforeDir="false" afterPath="$PROJECT_DIR$/config/credentials.yml.enc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/bulk_sms/africas_talking_sms.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bulk_sms/africas_talking_sms.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/admin/dashboard_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/dashboard_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/dashboard/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/dashboard/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/marketing_campaigns/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/marketing_campaigns/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/assets.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,32 +79,13 @@
     </expand>
     <select />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/app/controllers/admin/tips_controller.rb">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="1659">
-                    <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/admin/navs/_sidenav.html.erb">
+        <entry file="file://$PROJECT_DIR$/app/views/admin/marketing_campaigns/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+            <state relative-caret-position="138">
+              <caret line="127" column="27" selection-start-line="127" selection-start-column="27" selection-end-line="127" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -156,12 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_flash_messages.html.erb" />
-        <option value="$PROJECT_DIR$/app/services/phone_service.rb" />
-        <option value="$PROJECT_DIR$/tmp/pids/sidekiq.pid" />
-        <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/admin.js" />
         <option value="$PROJECT_DIR$/db/migrate/20190611083833_recipient_file_paths.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20190611084130_create_recipient_file_paths.rb" />
         <option value="$PROJECT_DIR$/app/models/recipient_file_path.rb" />
@@ -175,7 +152,6 @@
         <option value="$PROJECT_DIR$/app/workers/bulk_sms_worker.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20190605055147_create_marketing_campaigns.rb" />
         <option value="$PROJECT_DIR$/app/workers/process_csv_worker.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/puma.rb" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/app/views/admin/admins/sessions/new.html.erb" />
@@ -207,14 +183,21 @@
         <option value="$PROJECT_DIR$/app/views/admin/tips/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/admin/tips/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/admin/navs/_sidenav.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/admin/dashboard_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/admin/dashboard/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/admin/dashboard.coffee" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/admin.js" />
+        <option value="$PROJECT_DIR$/config/initializers/assets.rb" />
+        <option value="$PROJECT_DIR$/app/views/admin/marketing_campaigns/index.html.erb" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="993" />
-    <option name="y" value="27" />
-    <option name="width" value="927" />
-    <option name="height" value="1053" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="61" />
+    <option name="y" value="25" />
+    <option name="width" value="1859" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -240,6 +223,12 @@
               <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="bet_app" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -255,14 +244,22 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="navs" type="462c0819:PsiDirectoryNode" />
+              <item name="marketing_campaigns" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="tips" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
       <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -270,7 +267,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Miscellaneous/Temp Holder/kopo-kopo-ui_4.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/assets/javascripts/admin" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -278,19 +275,19 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/javascripts/admin" />
+      <recent name="$PROJECT_DIR$/vendor/assets/javascripts" />
+      <recent name="$PROJECT_DIR$/tmp" />
+      <recent name="$PROJECT_DIR$/app/views/admin/mpesa_transactions" />
+      <recent name="$PROJECT_DIR$/app/views/frontend/home" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/app/assets/stylesheets/frontend" />
       <recent name="$PROJECT_DIR$/app/services" />
       <recent name="$PROJECT_DIR$/app/models" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/tmp" />
-      <recent name="$PROJECT_DIR$/vendor/assets/javascripts" />
-      <recent name="$PROJECT_DIR$/app/views/admin/mpesa_transactions" />
-      <recent name="$PROJECT_DIR$/app/views/frontend/home" />
-      <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -551,12 +548,13 @@
       <workItem from="1560513890493" duration="5685000" />
       <workItem from="1560539056812" duration="1611000" />
       <workItem from="1560564251313" duration="2079000" />
-      <workItem from="1560590330013" duration="3737000" />
+      <workItem from="1560590330013" duration="8265000" />
+      <workItem from="1560598654576" duration="2382000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="656902000" />
+    <option name="totallyTimeSpent" value="663812000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -568,15 +566,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="993" y="27" width="927" height="1053" extended-state="0" />
-    <editor active="true" />
+    <frame x="61" y="25" width="1859" height="1055" extended-state="6" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5076754" side_tool="true" weight="0.45923632" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49232456" weight="0.25652668" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49232456" visible="true" weight="0.22173193" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49917263" weight="0.6021978" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49917263" weight="0.4100877" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -584,7 +581,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" sideWeight="0.4997242" weight="0.32894737" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49917263" weight="0.32894737" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49862108" weight="0.47472528" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49862108" visible="true" weight="0.47368422" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50137895" side_tool="true" weight="0.564693" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32857144" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
@@ -621,88 +618,9 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/bet_app@Rails_console__bet_app.rcov" NAME="Rails console: bet_app Coverage Results" MODIFIED="1560517989694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bet_app" />
+    <SUITE FILE_PATH="coverage/bet_app@Rails_console__bet_app.rcov" NAME="Rails console: bet_app Coverage Results" MODIFIED="1560596301200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bet_app" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/workers/pretip_sms_worker.rb" />
-    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs26/kernel.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="4126" column="8" selection-start-line="4126" selection-start-column="8" selection-end-line="4126" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.6.0/gems/sidekiq-5.2.7/lib/sidekiq/worker.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="91" column="10" selection-start-line="91" selection-start-column="10" selection-end-line="91" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/admin/tip.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/workers/process_csv_worker.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://53211d0f-bb7a-4801-9647-93691bf8144f/database/bet_app_development/schema/public/table/pending_transactions">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="9de04045-be7e-4ce2-9e36-8bec17857f17">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190526214855_add_belongs_to_admin_to_admin_tips.rb" />
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190515083730_create_transactions.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190523044656_create_admin_tips.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190528203602_create_pending_transactions.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://53211d0f-bb7a-4801-9647-93691bf8144f/database/bet_app_development/schema/public/table/mpesa_transactions">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="f8bef57d-8c82-4217-bc66-9b2e11f1d8bf">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/sidekiq.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/storage.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.rb" />
     <entry file="file://$PROJECT_DIR$/app/services/authorize_k2_service.rb">
       <provider selected="true" editor-type-id="text-editor">
@@ -870,13 +788,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/admin/tips_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1659">
-          <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/admin/marketing_campaigns_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
@@ -952,8 +863,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/admin/navs/_sidenav.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+        <state relative-caret-position="21">
+          <caret line="1" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.6.0/gems/chart-js-rails-0.1.6/lib/chart-js-rails.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/tips.coffee">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/tips/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1071" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin/tips_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="15" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/admin/_charts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin/dashboard_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/dashboard/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="93" column="33" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/dashboard.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/chart.js/Chart.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/chart-area-demo.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" selection-start-line="28" selection-end-line="30" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/assets.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/marketing_campaigns/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="127" column="27" selection-start-line="127" selection-start-column="27" selection-end-line="127" selection-end-column="27" />
         </state>
       </provider>
     </entry>

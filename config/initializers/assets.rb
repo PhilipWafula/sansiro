@@ -17,4 +17,6 @@ Rails.application.config.assets.precompile += %w[admin.css.scss
                                                  admin.js
                                                  frontend.js
                                                  frontend.scss
-                                                 admin/chart-area-demo.js]
+                                                 admin/chart-area-demo.js
+                                                 admin/chart-bar-demo.js
+                                                 admin/chart-pie-demo.js]
