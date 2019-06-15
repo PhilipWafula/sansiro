@@ -61,6 +61,10 @@ class ProcessTransactionService
   end
 
   def process_transaction_logger
-    @process_transaction_logger ||= Logger.new("#{Rails.root}/log/services/process_transaction_logger.log")
+    @process_transaction_logger ||= if Rails.env == 'test'
+                                      Logger.new(STDERR)
+                                    else
+                                      Logger.new("#{Rails.root}/log/services/process_transaction_logger.log")
+                                    end
   end
 end
