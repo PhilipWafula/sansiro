@@ -8,7 +8,8 @@ Rails.application.routes.draw do
     resources :tips
     resources :mpesa_transactions, only: %i[index show]
     resources :pending_transactions, only: %i[index show]
-    # match 'multiple_recipients_campaign', to: 'marketing_campaigns#multiple_recipients_campaign', via: :post
+    resources :error_handling
+    post 'error_handling/test_africas_talking', to: 'error_handling#test_africas_talking'
     resources :marketing_campaigns
     post 'receive', to: 'mpesa_transactions#receive'
     match 'pending_transactions/:id/retry_transaction', to: 'pending_transactions#retry_transaction', as: :retry_transaction, via: :post

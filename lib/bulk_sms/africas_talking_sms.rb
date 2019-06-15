@@ -27,7 +27,7 @@ module BulkSms
       request.on_complete do |r|
         api_response = parse_response(r)
         africas_talking_logger.info("Received response for sms request to #{recipient} - #{r.inspect}")
-        # Quick fix  Logger
+        # Quick 3fix  Logger
         Rails.logger = Logger.new(STDOUT)
         ActiveSupport::Logger.new("log/#{Rails.env}.log")
         Rails.logger.level = Logger::DEBUG
