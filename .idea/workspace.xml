@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2074074-1cbd-47a8-8466-f382c95193d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/controllers/admin/error_handling_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/admin/error_handling/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/bulk_sms/africas_talking_sms.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bulk_sms/africas_talking_sms.rb" afterDir="false" />
-    </list>
+    <list default="true" id="d2074074-1cbd-47a8-8466-f382c95193d0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -576,12 +570,12 @@
       <workItem from="1560539056812" duration="1611000" />
       <workItem from="1560564251313" duration="2079000" />
       <workItem from="1560590330013" duration="8265000" />
-      <workItem from="1560598654576" duration="13305000" />
+      <workItem from="1560598654576" duration="14707000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="674735000" />
+    <option name="totallyTimeSpent" value="676137000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -594,7 +588,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="25" width="1859" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5076754" side_tool="true" weight="0.45923632" />
       <window_info id="Favorites" order="1" side_tool="true" />
