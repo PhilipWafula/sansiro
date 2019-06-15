@@ -8,14 +8,15 @@ class ProcessTransactionService
   end
 
   def process_request
-    subscription_package = compute_subscription_package(request['amount'].to_f)
+    recipient = request['sender_phone']
+    subscription_package = compute_subscription_package(request['amount'].to_f, recipient)
     request['subscription_package'] = subscription_package
     process_admin_tip(request)
   end
 
   private
 
-  def compute_subscription_package(amount)
+  def compute_subscription_package(amount, recipient)
     case amount
     when 50
       subscription_package = 'Regular'
@@ -24,7 +25,9 @@ class ProcessTransactionService
     when 80
       subscription_package = 'Jackpot'
     else
-      raise 'Invalid amount, no respective package'
+      subscription_package = 'Irregular'
+      BulkSmsWorker.perform_async(recipient, 'The amount sent is invalid, please send 50 for regular, 100 for premium or 88 for Jackpot')
+      process_transaction_logger.info 'Invalid amount paid'
     end
     subscription_package
   end

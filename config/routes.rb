@@ -10,7 +10,7 @@ Rails.application.routes.draw do
     resources :pending_transactions, only: %i[index show]
     # match 'multiple_recipients_campaign', to: 'marketing_campaigns#multiple_recipients_campaign', via: :post
     resources :marketing_campaigns
-    post 'mpesa_transactions/receive', to: 'mpesa_transactions#receive'
+    post 'receive', to: 'mpesa_transactions#receive'
     match 'pending_transactions/:id/retry_transaction', to: 'pending_transactions#retry_transaction', as: :retry_transaction, via: :post
   end
 
