@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2074074-1cbd-47a8-8466-f382c95193d0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/admin/application.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/admin/application.erb" afterDir="false" />
-    </list>
+    <list default="true" id="d2074074-1cbd-47a8-8466-f382c95193d0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +94,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/admin/application.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
+            <state relative-caret-position="279">
               <caret line="69" column="36" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
             </state>
           </provider>
@@ -632,12 +629,12 @@
       <workItem from="1561536920728" duration="26252000" />
       <workItem from="1561609244597" duration="49964000" />
       <workItem from="1561710656440" duration="981000" />
-      <workItem from="1561768577548" duration="12835000" />
+      <workItem from="1561768577548" duration="13204000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="833928000" />
+    <option name="totallyTimeSpent" value="834297000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -650,11 +647,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="25" width="1859" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5076754" side_tool="true" weight="0.45923632" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49232456" visible="true" weight="0.36183122" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49232456" visible="true" weight="0.36183122" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32785088" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49862108" weight="0.4054945" />
@@ -665,7 +661,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" sideWeight="0.4997242" weight="0.32894737" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49917263" weight="0.71710527" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4980695" weight="0.41557017" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4980695" visible="true" weight="0.41557017" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5019305" side_tool="true" weight="0.560307" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32785088" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
@@ -1083,7 +1079,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/admin/application.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
+        <state relative-caret-position="279">
           <caret line="69" column="36" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
         </state>
       </provider>
