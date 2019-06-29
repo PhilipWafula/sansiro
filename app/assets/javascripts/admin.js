@@ -16,6 +16,8 @@
 //= require popper
 //= require datatables
 //= require bootstrap-sprockets
+//= require admin/bootstrap-datepicker.js
+//= require admin/bootstrap-timepicker.js
 //= require admin/marketing_campaigns
 //= require admin/dashboard
 //= require admin/pending_transactions
@@ -29,6 +31,4 @@
 //= require admin/chart-area-demo
 //= require admin/chart-bar-demo
 //= require admin/chart-pie-demo
-//= require admin/bootstrap-datepicker.js
-//= require admin/bootstrap-timepicker.js
 
