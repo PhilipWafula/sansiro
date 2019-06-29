@@ -12,6 +12,7 @@ class ProcessCsvWorker
     recipients.each_with_index do |val, index|
       # define phone numbers
       phone = FormatPhoneService.internationalize_phone(val["recipients"].to_s.strip, 'KE')
+      # log returned phone number
 
       # create campaign
       marketing_campaign = MarketingCampaign.new do |campaign|
