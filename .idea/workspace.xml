@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2074074-1cbd-47a8-8466-f382c95193d0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/admin/tips.coffee" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/admin/tips.coffee" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/tips/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/tips/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/admin/application.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/admin/application.erb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,20 +85,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/tips.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+            <state relative-caret-position="2793">
+              <caret line="151" column="8" selection-start-line="151" selection-start-column="8" selection-end-line="151" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/admin/application.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="658">
+              <caret line="69" column="36" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+            <state relative-caret-position="284">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -158,7 +167,6 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/admin/dashboard.scss" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/admin/dashboard.coffee" />
         <option value="$PROJECT_DIR$/app/views/admin/tips/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/admin/application.erb" />
         <option value="$PROJECT_DIR$/config/initializers/assets.rb" />
         <option value="$PROJECT_DIR$/app/models/admin.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/admin/mpesa_transactions.coffee" />
@@ -182,7 +190,6 @@
         <option value="$PROJECT_DIR$/app/views/admin/navs/_sidenav.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/admin/pending_transactions.coffee" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/admin/resolved_transactions.coffee" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/admin.js" />
         <option value="$PROJECT_DIR$/app/views/admin/pending_transactions/show.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20190523044656_create_tips.rb" />
         <option value="$PROJECT_DIR$/app/views/admin/tips/show.html.erb" />
@@ -203,6 +210,8 @@
         <option value="$PROJECT_DIR$/app/controllers/admin/pending_transactions_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/admin/tips/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/admin/tips.coffee" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/admin.js" />
+        <option value="$PROJECT_DIR$/app/views/layouts/admin/application.erb" />
       </list>
     </option>
   </component>
@@ -238,6 +247,34 @@
               <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="bet_app" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -254,6 +291,32 @@
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="tips" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -569,12 +632,12 @@
       <workItem from="1561536920728" duration="26252000" />
       <workItem from="1561609244597" duration="49964000" />
       <workItem from="1561710656440" duration="981000" />
-      <workItem from="1561768577548" duration="12370000" />
+      <workItem from="1561768577548" duration="12835000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="833463000" />
+    <option name="totallyTimeSpent" value="833928000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -668,10 +731,6 @@
     <SUITE FILE_PATH="coverage/bet_app@Rails_console__bet_app.rcov" NAME="Rails console: bet_app Coverage Results" MODIFIED="1561670415001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bet_app" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/admin/marketing_campaigns/show.html.erb" />
-    <entry file="file://$PROJECT_DIR$/app/views/admin/marketing_campaigns/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/admin/marketing_campaigns/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -984,20 +1043,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="683">
-          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/admin/pending_transactions_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -1012,10 +1057,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/admin.css.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/tips.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+        <state relative-caret-position="2793">
+          <caret line="151" column="8" selection-start-line="151" selection-start-column="8" selection-end-line="151" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/admin/application.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="658">
+          <caret line="69" column="36" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
         </state>
       </provider>
     </entry>
