@@ -1,415 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2074074-1cbd-47a8-8466-f382c95193d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/admin/Nunito-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/admin/Nunito-Bold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/admin/Nunito-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/admin/Nunito-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/admin/Nunito-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/admin/Nunito-Regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/admin/Nunito-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/admin/Nunito-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/admin/Nunito-SemiBold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/admin/Nunito-SemiBold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/admin/Nunito-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/admin/Nunito-SemiBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/admin/dripicons-v2.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/admin/dripicons-v2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/admin/dripicons-v2.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/admin/dripicons-v2.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/admin/materialdesignicons-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/admin/materialdesignicons-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/admin/materialdesignicons-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/admin/materialdesignicons-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/admin/materialdesignicons-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/admin/summernote.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/admin/summernote.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/fonts/admin/summernote.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/admin/help-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/admin/logo-dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/admin/logo-light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/admin/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/admin/logo_sm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/admin/logo_sm_dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/admin/waves.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/admin/chart-area-demo.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/config/dark/_custom-variables-dark.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/config/dark/_variables-dark.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/config/default/_custom-variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/config/default/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/config/green/_custom-variables-green.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/config/green/_variables-green.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/components/_accordions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/components/_avatar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/components/_badge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/components/_breadcrumb.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/components/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/components/_card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/components/_dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/components/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/components/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/components/_modal.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/components/_nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/components/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/components/_popover.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/components/_preloader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/components/_print.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/components/_progress.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/components/_reboot.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/components/_social.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/components/_steps.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/components/_switch.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/components/_tables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/components/_type.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/components/_utilities.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/components/_widgets.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/components/mixins/_background-variant.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/components/mixins/_badge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/components/mixins/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/components/utilities/_background.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/components/utilities/_text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/fonts/_nunito.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/pages/_authentication.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/pages/_buttons-demo.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/pages/_email.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/pages/_error.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/pages/_faq.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/pages/_grid-demo.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/pages/_icons-demo.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/pages/_maintenance.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/pages/_tasks.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/plugins/_apexcharts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/plugins/_bootstrap-timepicker.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/plugins/_bootstrap-touchspin.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/plugins/_britechart.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/plugins/_calendar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/plugins/_chartjs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/plugins/_datatable.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/plugins/_datepicker.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/plugins/_daterange.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/plugins/_dragula.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/plugins/_dropzone.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/plugins/_form-wizard.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/plugins/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/plugins/_maps.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/plugins/_metis-menu.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/plugins/_select2.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/plugins/_simplemde.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/plugins/_slimscroll.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/plugins/_sparklines.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/plugins/_summernote.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/plugins/_toaster.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/plugins/_typehead.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/plugins/icons/_dripicons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/plugins/icons/_materialdesignicons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/structure/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/structure/_general.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/structure/_horizontal-nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/structure/_left-menu.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/structure/_page-head.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/structure/_right-sidebar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/structure/_style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/custom/structure/_topbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/vendor/_bootstrap-datepicker.min.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/vendor/_bootstrap-timepicker.min.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/vendor/_daterangepicker.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/vendor/_jquery.bootstrap-touchspin.min.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/vendor/_jquery.toast.min.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/vendor/_select2.min.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/admin/resolved_transactions/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/build/build.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/build/build3.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/build/build_standalone.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/build/build_standalone3.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/css/bootstrap-datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/css/bootstrap-datepicker.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/css/bootstrap-datepicker.standalone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/css/bootstrap-datepicker.standalone.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/css/bootstrap-datepicker.standalone.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/css/bootstrap-datepicker3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/css/bootstrap-datepicker3.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/css/bootstrap-datepicker3.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/css/bootstrap-datepicker3.standalone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/css/bootstrap-datepicker3.standalone.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/css/bootstrap-datepicker3.standalone.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/js/bootstrap-datepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker-en-CA.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ar-tn.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.az.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.bg.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.bm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.bn.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.br.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.bs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ca.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.cs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.cy.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.da.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.de.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.el.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.en-AU.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.en-CA.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.en-GB.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.en-IE.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.en-NZ.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.en-ZA.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.eo.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.es.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.et.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.eu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.fa.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.fi.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.fo.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.fr-CH.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.fr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.gl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.he.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.hi.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.hr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.hu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.hy.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.id.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.is.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.it-CH.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.it.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ja.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ka.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.kh.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.kk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.km.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ko.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.kr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.lt.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.lv.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.me.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.mk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.mn.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ms.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.nl-BE.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.nl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.no.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.oc.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.pl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.pt-BR.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.pt.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ro.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.rs-latin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.rs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ru.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.si.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.sk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.sl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.sq.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.sr-latin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.sr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.sv.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.sw.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ta.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.tg.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.th.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.tk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.tr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.uk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.uz-cyrl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.uz-latn.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.vi.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.zh-CN.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/locales/bootstrap-datepicker.zh-TW.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/bootstrap-datepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker-en-CA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.ar-tn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.bm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.bn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.br.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.bs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.cy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.en-AU.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.en-CA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.en-GB.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.en-IE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.en-NZ.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.en-ZA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.eo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.fo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.fr-CH.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.hi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.hy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.it-CH.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.ka.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.kh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.kk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.kr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.me.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.mn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.ms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.nl-BE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.no.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.oc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.pt-BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.rs-latin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.rs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.si.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.sr-latin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.sw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.ta.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.tg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.tk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.uz-cyrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.uz-latn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/js/locales/bootstrap-datepicker.zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/less/datepicker.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/less/datepicker3.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-timepicker/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-timepicker/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-timepicker/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-timepicker/css/bootstrap-timepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-timepicker/css/bootstrap-timepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-timepicker/css/timepicker.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-timepicker/js/bootstrap-timepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-timepicker/js/bootstrap-timepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-timepicker/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery.slimscroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/metismenu/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/metismenu/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/metismenu/changelog.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/metismenu/dist/cjs/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/metismenu/dist/metisMenu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/metismenu/dist/metisMenu.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/metismenu/dist/metisMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/metismenu/dist/metisMenu.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/metismenu/dist/metisMenu.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/metismenu/dist/metisMenu.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/metismenu/dist/metisMenu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/metismenu/dist/metisMenu.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/metismenu/dist/modules/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/metismenu/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/metismenu/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/metismenu/src/metisMenu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/metismenu/src/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/metismenu/types/metismenu.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/bet_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bet_app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/53211d0f-bb7a-4801-9647-93691bf8144f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/53211d0f-bb7a-4801-9647-93691bf8144f.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/53211d0f-bb7a-4801-9647-93691bf8144f/storage_v2/_src_/database/bet_app_development.b9zljg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/53211d0f-bb7a-4801-9647-93691bf8144f/storage_v2/_src_/database/bet_app_development.b9zljg/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/philip.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/philip.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/admin/chart-area-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/admin/dashboard.coffee" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/admin/dashboard.coffee" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/admin/marketing_campaigns.coffee" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/admin/marketing_campaigns.coffee" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/admin/mpesa_transactions.coffee" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/admin/mpesa_transactions.coffee" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/admin/pending_transactions.coffee" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/admin/pending_transactions.coffee" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/admin/tips.coffee" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/admin/tips.coffee" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/datatables.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/datatables.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/admin.css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin.css.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/admin/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/admin/dashboard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin/dashboard.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/datatables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/datatables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/admin/dashboard_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/dashboard_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/admin/pending_transactions_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/pending_transactions_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/admin/tips_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/tips_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/datatables/admin_tip_datatable.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/datatables/tips_datatable.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/datatables/pending_transaction_datatable.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/datatables/pending_transactions_datatable.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/admin/tips_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/admin/tips_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/admin.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/admin.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/admin/tip.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/mpesa_transaction.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/mpesa_transaction.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/tip.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/tip.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/process_transaction_service.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/process_transaction_service.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/dashboard/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/dashboard/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/marketing_campaigns/_admin_marketing_campaign.json.jbuilder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/marketing_campaigns/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/marketing_campaigns/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/marketing_campaigns/index.json.jbuilder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/marketing_campaigns/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/marketing_campaigns/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/marketing_campaigns/show.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/marketing_campaigns/show.json.jbuilder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/mpesa_transactions/_admin_mpesa_transaction.json.jbuilder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/mpesa_transactions/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/mpesa_transactions/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/mpesa_transactions/index.json.jbuilder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/mpesa_transactions/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/mpesa_transactions/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/mpesa_transactions/show.json.jbuilder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/navs/_footer.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/navs/_footer.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/navs/_sidenav.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/navs/_sidenav.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/navs/_topbar.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/navs/_topbar.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/pending_transactions/_admin_pending_transaction.json.jbuilder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/pending_transactions/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/pending_transactions/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/pending_transactions/index.json.jbuilder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/pending_transactions/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/pending_transactions/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/pending_transactions/show.json.jbuilder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/tips/_admin_tip.json.jbuilder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/tips/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/tips/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/tips/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/tips/edit.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/tips/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/tips/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/tips/index.json.jbuilder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/tips/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/tips/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/tips/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/tips/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/tips/show.json.jbuilder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/admin/application.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/admin/application.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/workers/process_csv_worker.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/workers/process_csv_worker.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/workers/tips_sms_worker.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/workers/tips_sms_worker.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/assets.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20190523044656_create_admin_tips.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20190523044656_create_tips.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20190605055147_create_marketing_campaigns.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20190605055147_create_marketing_campaigns.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
-    </list>
+    <list default="true" id="d2074074-1cbd-47a8-8466-f382c95193d0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -471,7 +63,28 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/admin/mpesa_transactions/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="21" column="85" selection-start-line="21" selection-start-column="85" selection-end-line="21" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="das://53211d0f-bb7a-4801-9647-93691bf8144f/database/bet_app_development/schema/public/table/tips">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="dcc4dac8-de03-41b3-82e8-7d28bb8d6ae6">
+              <filtering>
+                <filter text="" />
+              </filtering>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -538,7 +151,6 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/admin/chart-area-demo.coffee" />
         <option value="$PROJECT_DIR$/app/models/tip.rb" />
         <option value="$PROJECT_DIR$/app/views/admin/tips/edit.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/admin/mpesa_transactions/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/admin/marketing_campaigns/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/admin/marketing_campaigns/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/admin/mpesa_transactions/show.html.erb" />
@@ -551,7 +163,6 @@
         <option value="$PROJECT_DIR$/app/datatables/resolved_transactions_datatable.rb" />
         <option value="$PROJECT_DIR$/app/views/admin/navs/_sidenav.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/admin/pending_transactions.coffee" />
-        <option value="$PROJECT_DIR$/app/views/admin/resolved_transactions/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/admin/resolved_transactions.coffee" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/admin.js" />
         <option value="$PROJECT_DIR$/app/views/admin/pending_transactions/show.html.erb" />
@@ -571,6 +182,8 @@
         <option value="$PROJECT_DIR$/app/views/admin/pending_transactions/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/admin/resolved_transactions_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/admin/pending_transactions_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/admin/resolved_transactions/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/admin/mpesa_transactions/index.html.erb" />
       </list>
     </option>
   </component>
@@ -596,6 +209,43 @@
             <path>
               <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="bet_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="mpesa_transactions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="migrate" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -911,12 +561,12 @@
       <workItem from="1561536920728" duration="26252000" />
       <workItem from="1561609244597" duration="49964000" />
       <workItem from="1561710656440" duration="981000" />
-      <workItem from="1561768577548" duration="6798000" />
+      <workItem from="1561768577548" duration="7682000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="827891000" />
+    <option name="totallyTimeSpent" value="828775000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -932,7 +582,7 @@
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5076754" side_tool="true" weight="0.45923632" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49232456" visible="true" weight="0.23166023" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49232456" visible="true" weight="0.23166023" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32785088" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49862108" weight="0.4054945" />
@@ -943,7 +593,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" sideWeight="0.4997242" weight="0.32894737" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49917263" weight="0.32894737" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49862108" weight="0.4375" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49862108" visible="true" weight="0.560307" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50137895" side_tool="true" weight="0.40679824" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32785088" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
@@ -983,13 +633,6 @@
     <SUITE FILE_PATH="coverage/bet_app@Rails_console__bet_app.rcov" NAME="Rails console: bet_app Coverage Results" MODIFIED="1561670415001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bet_app" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190605055147_create_marketing_campaigns.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/workers/process_csv_worker.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1055,13 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/resolved_transactions/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1219,15 +855,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://53211d0f-bb7a-4801-9647-93691bf8144f/database/bet_app_development/schema/public/table/tips">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="70f5e8a4-c0a1-4afc-967d-e81a821c70da">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/services/process_transaction_service.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -1274,13 +901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/pending_transactions/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="27" column="111" selection-start-line="27" selection-start-column="111" selection-end-line="27" selection-end-column="111" />
         </state>
       </provider>
     </entry>
@@ -1332,6 +952,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="534">
           <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/pending_transactions/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="111" selection-start-line="27" selection-start-column="111" selection-end-line="27" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/resolved_transactions/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="82" selection-start-line="21" selection-start-column="82" selection-end-line="21" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/mpesa_transactions/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="85" selection-start-line="21" selection-start-column="85" selection-end-line="21" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://53211d0f-bb7a-4801-9647-93691bf8144f/database/bet_app_development/schema/public/table/tips">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="dcc4dac8-de03-41b3-82e8-7d28bb8d6ae6">
+          <filtering>
+            <filter text="" />
+          </filtering>
         </state>
       </provider>
     </entry>
