@@ -20,7 +20,7 @@ number_format = (number, decimals, dec_point, thousands_sep) ->
   s.join dec
 
 $ ->
-  # date pickers
+# date pickers
   $('.date-picker').datepicker
     format: 'dd/mm/yyyy'
     startDate: '-0d'
@@ -32,6 +32,7 @@ $ ->
       up: 'fas fa-chevron-up'
       down: 'fas fa-chevron-down'
 
+$ ->
   Chart.defaults.global.defaultFontFamily = 'Nunito'
   '-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif'
   Chart.defaults.global.defaultFontColor = '#858796'
@@ -117,6 +118,7 @@ $ ->
           datasetLabel + ':' + number_format(tooltipItem.yLabel) + ' tips'
   )
 
+$ ->
   tipsTable = $('#tipsTable').dataTable
     keys: !0
     language: paginate:
