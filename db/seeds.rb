@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # frozen_string_literal true
 
 # This file should contain all the record creation needed to seed the database with its default values.
@@ -9,3 +11,12 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 admin = CreateAdminService.new.call
 puts 'CREATED ADMIN USER:', admin.email
+
+# 50.times do
+# Tip.create(tip_content: Faker::Quotes::Shakespeare.hamlet,
+# tip_package: %w[Jackpot Premium Regular].sample,
+# tip_expiry: Faker::Time.between(5.months.ago, 5.months.from_now),
+# tip_date: Faker::Date.between(5.months.ago, 5.months.from_now),
+# admin_id: 1)
+# end
+# puts 'CREATE SAMPLE TIP DATA'

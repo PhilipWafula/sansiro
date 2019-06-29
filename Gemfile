@@ -7,8 +7,8 @@ ruby '2.6.0'
 
 gem 'ajax-datatables-rails'
 gem 'bcrypt'
-gem 'bootstrap4-datetime-picker-rails'
 gem 'dropzonejs-rails'
+gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 gem 'jquery-datatables'
 gem 'phony_rails'
 gem 'rubocop', '~> 0.66.0', require: false

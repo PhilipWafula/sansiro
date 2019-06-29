@@ -51,7 +51,7 @@ class Admin::DashboardController < AdminController
   end
 
   def message_per_package_count(package, date)
-    @package = Admin::Tip.where(tip_package: package, tip_date: date).count
+    @package = Tip.where(tip_package: package, tip_date: date).count
   end
 
   def total_revenue(regular, premium, jackpot)

@@ -1,34 +1,55 @@
-<%= render partial: 'layouts/flash_messages' %>
-
+<!-- start page title -->
+<div class="row">
+  <div class="col-12">
+    <div class="page-title-box">
+      <div class="page-title-right">
+        <ol class="breadcrumb m-0">
+          <li class="breadcrumb-item">
+            <%= link_to 'Dashboard', admin_root_path %>
+          </li>
+          <li class="breadcrumb-item active">Tip</li>
+        </ol>
+      </div>
+      <h4 class="page-title">Tip</h4>
+    </div>
+  </div>
+</div>
+<!-- end page title -->
 <div class="row">
   <div class="col-12">
     <div class="card shadow mb-4">
       <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-        <h6 class="m-0 font-weight-bold text-primary">Transaction</h6>
+        <h6 class="m-0 font-weight-bold text-primary">Tip</h6>
       </div>
 
       <div class="card-body">
         <div class="x_content"><br />
           <div class="form-group">
             <label class="control-label col-md-3 col-sm-3 col-xs-20">Tip ID</label>
-            <%= @admin_tip.id %>
+            <%= @tip.id %>
           </div><br>
           <div class="form-group">
             <label class="control-label col-md-3 col-sm-3 col-xs-20">Message</label>
-            <%= @admin_tip.tip_content %>
+            <%= @tip.tip_content %>
           </div><br>
 
           <div class="form-group">
             <label class="control-label col-md-3 col-sm-3 col-xs-20">Package</label>
-            <%= @admin_tip.tip_package %>
+            <%= @tip.tip_package %>
+          </div><br>
+
+          <div class="form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-20">Expiry</label>
+            <%= twelve_hour_format(@tip.tip_expiry) %>
           </div><br>
 
           <div class="form-group">
             <label class="control-label col-md-3 col-sm-3 col-xs-20">Date</label>
-            <%= @admin_tip.tip_date %>
-            </div><br>
+            <%= @tip.tip_date %>
+          </div><br>
 
-          <%= link_to 'Edit', edit_admin_tip_path(@admin_tip), class: 'btn btn-primary' %>
+          <%= link_to 'Edit', edit_admin_tip_path(@tip), class: 'btn btn-primary' %>
+          <%= link_to 'Delete', admin_tip_path(@tip), class: 'btn btn-primary', method: :delete, data: {confirm: 'Are you sure'} %>
           <%= link_to 'Back', admin_tips_path, class: 'btn btn-primary' %>
         </div>
       </div>

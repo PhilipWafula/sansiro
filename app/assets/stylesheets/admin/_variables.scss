@@ -74,3 +74,79 @@ $transition-collapse: height .15s ease !default;
 // Dropdowns
 $dropdown-font-size: 0.85rem;
 $dropdown-border-color: $border-color;
+$shadow:                            0px 0px 35px 0px rgba(154, 161, 171, 0.15);
+$shadow-lg:                         0 0 45px 0 rgba(0, 0, 0, 0.12);
+// Font weight
+$font-weight-semibold:              600;
+$dropdown-lg-width:                 320px;
+$dragula-bg:                      #404954;
+// Form wizard header background
+$form-wizard-header-bg:           #404954;
+
+// Custom title color
+$text-title-color:                #ffffff;
+
+// card Loader background
+$card-loader-bg:                  #313a46;
+
+// Chat widget
+$chat-primary-user-bg:            #404954;
+$chat-secondary-user-bg:          #404954;
+
+// User authentication Background
+$auth-bg:                         #404954;
+
+$menu-item:                       #8391a2;
+$menu-item-hover:                 #ffffff;
+$menu-item-active:                #ffffff;
+
+// Menu item colors (light)
+$menu-item-light:                 #6c757d;
+$menu-item-light-hover:           #727cf5;
+$menu-item-light-active:          #727cf5;
+
+// Detached Menu item colors
+$menu-item-dark:                  #8391a2;
+$menu-item-dark-hover:            #727cf5;
+$menu-item-dark-active:           #727cf5;
+
+// Dark sidenav Menu item color
+$sidebar-dark-menu-item:          #8391a2;
+$sidebar-dark-menu-item-hover:    #bccee4;
+$sidebar-dark-menu-item-active:   #ffffff;
+
+// Rightbar
+$rightbar-width:                    260px;
+$rightbar-bg:                     #37404a;
+$rightbar-title-bg:               #727cf5;
+$rightbar-title-color:            #ffffff;
+$rightbar-title-btn-bg:             lighten($rightbar-title-bg, 5%);
+$rightbar-title-btn-color:        #ffffff;
+$rightbar-overlay-bg:             #000;
+
+// Topbar Background
+$bg-topbar:                       #404954;
+$bg-topbar-dark:                  #404954;
+
+// Topbar Search
+$bg-topbar-search:                #464f5b;
+$bg-topbar-dark-search:           #464f5b;
+
+// Font weight
+$font-weight-semibold:              600;
+
+// Dropdown Large
+$dropdown-lg-width:                 320px;
+
+// Page title color
+$page-title-color:                #fff;
+
+// Header title
+$header-title-color:              #ffffff;
+
+// Nav-pill background
+$nav-pills-bg:                    #404954;
+
+// Custom-accordion
+$custom-accordion-title-color:    #8391a2;
+

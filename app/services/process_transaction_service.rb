@@ -8,15 +8,17 @@ class ProcessTransactionService
   end
 
   def process_request
+    # get recipient
     recipient = request['sender_phone']
-    subscription_package = compute_subscription_package(request['amount'].to_f, recipient)
-    request['subscription_package'] = subscription_package
+    # add subscription package
+    compute_subscription_package(request['amount'].to_f, recipient, request)
+    # process tip
     process_admin_tip(request)
   end
 
   private
 
-  def compute_subscription_package(amount, recipient)
+  def compute_subscription_package(amount, recipient, request)
     case amount
     when 50
       subscription_package = 'Regular'
@@ -26,39 +28,45 @@ class ProcessTransactionService
       subscription_package = 'Jackpot'
     else
       subscription_package = 'Irregular'
-      BulkSmsWorker.perform_async(recipient, 'The amount sent is invalid, please send 50 for regular, 100 for premium or 88 for Jackpot')
+      BulkSmsWorker.perform_async(recipient, 'The amount sent is invalid, please send 50 for regular, 100 for premium or 80 for Jackpot')
       process_transaction_logger.info 'Invalid amount paid'
     end
-    subscription_package
+    request['subscription_package'] = subscription_package
   end
 
-  def send_tip(recipient_phone, message, transaction_ref)
-    TipsSmsWorker.perform_async(recipient_phone, message, transaction_ref)
+  def send_tip(recipient_phone, message)
+    TipsSmsWorker.perform_async(recipient_phone, message)
   end
 
   def process_admin_tip(request)
-    # get transaction date
-    transaction_date = request['transaction_timestamp'].to_date
-    # get subscription package
-    subscription_package = request['subscription_package']
-    # get transaction reference
-    transaction_reference = request['transaction_reference']
-    # get message recipient
+    # get recipient
     message_recipient = request['sender_phone']
-    # get message
+    # define message
     child_message = ''
-    # get tip is present
-    child_message = Admin::Tip.where(tip_date: transaction_date, tip_package: subscription_package).take!.tip_content unless Admin::Tip.where(tip_date: transaction_date, tip_package: subscription_package).blank?
-    if child_message.blank? && request['child_message_status'].blank? && request['child_message_status'] != 'Pending'
+    # get message
+    child_message = valid_tip.take!.tip_content unless valid_tip.blank?
+    # send tips
+    if child_message.blank? && request['child_message_status'].blank?
       request['child_message_status'] = 'Pending'
       BulkSmsWorker.perform_async(message_recipient, 'Your payment has been received and tips will be sent shortly')
       PendingTransaction.new(request).save!
       process_transaction_logger.info 'Pending transaction logged.'
     else
       request['child_message_status'] = 'Scheduled'
-      send_tip(message_recipient, child_message, transaction_reference)
+      send_tip(message_recipient, child_message)
       MpesaTransaction.new(request).save!
     end
+  end
+
+  def valid_tip
+    # get subscription package
+    subscription_package = request['subscription_package']
+    # get transaction date
+    transaction_date = request['transaction_timestamp'].to_date
+    # get message recipient
+    current_time = Time.now
+    # get tip
+    Tip.where('tip_expiry > ? AND tip_package = ? AND tip_date = ?', current_time, subscription_package, transaction_date)
   end
 
   def process_transaction_logger

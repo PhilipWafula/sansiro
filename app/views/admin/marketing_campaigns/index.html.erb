@@ -1,82 +1,20 @@
-.<div class="d-sm-flex align-items-center justify-content-between mb-4">
-  <h1 class="h3 mb-0 text-gray-800">Marketing Campaigns</h1>
-</div>
-
+<!-- start page title -->
 <div class="row">
-
-  <div class="col-md-6 col-xl-3">
-    <div class="card shadow mb-4">
-      <div class="card-body">
-        <div class="row align-items-center">
-          <div class="col-6">
-            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1" title="Campaign Sent">Campaign Sent</div>
-            <h3 class="my-2 py-1"><%= @campaigns_sent %></h3>
-          </div>
-          <div class="col-6">
-            <div class="text-right">
-              <div id="campaign-sent-chart"></div>
-            </div>
-          </div>
-        </div> <!-- end row-->
-      </div> <!-- end card-body -->
-    </div> <!-- end card -->
-  </div> <!-- end col -->
-
-  <div class="col-md-6 col-xl-3">
-    <div class="card shadow mb-4">
-      <div class="card-body">
-        <div class="row align-items-center">
-          <div class="col-6">
-            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1" title="New Leads">New Leads</div>
-            <h3 class="my-2 py-1">3,254</h3>
-          </div>
-          <div class="col-6">
-            <div class="text-right">
-              <div id="new-leads-chart"></div>
-            </div>
-          </div>
-        </div> <!-- end row-->
-      </div> <!-- end card-body -->
-    </div> <!-- end card -->
-  </div> <!-- end col -->
-
-  <div class="col-md-6 col-xl-3">
-    <div class="card shadow mb-4">
-      <div class="card-body">
-        <div class="row align-items-center">
-          <div class="col-6">
-            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1" title="Deals">Deals</div>
-            <h3 class="my-2 py-1">861</h3>
-          </div>
-          <div class="col-6">
-            <div class="text-right">
-              <div id="deals-chart"></div>
-            </div>
-          </div>
-        </div> <!-- end row-->
-      </div> <!-- end card-body -->
-    </div> <!-- end card -->
-  </div> <!-- end col -->
-
-  <div class="col-md-6 col-xl-3">
-    <div class="card shadow mb-4">
-      <div class="card-body">
-        <div class="row align-items-center">
-          <div class="col-6">
-            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1" title="Booked Revenue">Booked Revenue</div>
-            <h3 class="my-2 py-1">$253k</h3>
-          </div>
-          <div class="col-6">
-            <div class="text-right">
-              <div id="booked-revenue-chart"></div>
-            </div>
-          </div>
-        </div> <!-- end row-->
-      </div> <!-- end card-body -->
-    </div> <!-- end card -->
-  </div> <!-- end col -->
+  <div class="col-12">
+    <div class="page-title-box">
+      <div class="page-title-right">
+        <ol class="breadcrumb m-0">
+          <li class="breadcrumb-item">
+            <%= link_to 'Dashboard', admin_root_path %>
+          </li>
+          <li class="breadcrumb-item active">My Campaigns</li>
+        </ol>
+      </div>
+      <h4 class="page-title">Campaigns</h4>
+    </div>
+  </div>
 </div>
-<!-- end row -->
+<!-- end page title -->
 
 <div class="row">
   <div class="col-xl-5">
@@ -141,7 +79,7 @@
       </div>
       <div class="card-body">
         <div class="table-responsive">
-          <table id="marketingCampaignsTable" class="table table-striped table-bordered" data-source="<%= admin_marketing_campaigns_path(format: :json) %>">
+          <table id="marketingCampaignsTable" class="table table-striped table-bordered w-100" data-source="<%= admin_marketing_campaigns_path(format: :json) %>">
             <thead>
             <tr>
               <th>ID</th>

@@ -1,25 +1,33 @@
-<%= render 'layouts/flash_messages' %>
-<%= form_with(model: admin_tip, local: true) do |tip_form| %>
+<%= form_for [:admin, @tip], action: :post  do |tip_form| %>
   <div class="form-group mb-3">
-    <%= tip_form.label 'Select a package' %>
-    <%= tip_form.select :tip_package, %w(Regular Premium Jackpot), {}, class: 'form-control', required:true%>
+    <%= tip_form.label :tip_package, 'Select a package' %>
+    <%= tip_form.select :tip_package, %w(Regular Premium Jackpot), {}, class: 'form-control', required: true %>
   </div>
 
   <div class="form-group mb-3">
-    <%= tip_form.label :tip_date, 'Message date' %>
-    <div class="input-group date" id="datetimepicker4" data-target-input="nearest">
-      <%= tip_form.text_field(:tip_date,
-                          value: tip_form.object.tip_date ? tip_form.object.tip_date.strftime('%m/%d/%y') : nil,
-                          class: "form-control datetimepicker-input", data: {target:"#datetimepicker4"}, required:true)%>
-      <div class="input-group-append" data-target="#datetimepicker4" data-toggle="datetimepicker">
-        <div class="input-group-text"><span class="fas fa-calendar-alt"></span></div>
+    <%= tip_form.label :tip_date, 'Tip date' %>
+    <div class="input-group">
+      <%= tip_form.text_field :tip_date, class: 'form-control date-picker', required: true %>
+      <div class="input-group-append">
+        <span class="input-group-text"><i class="fas fa-calendar"></i></span>
       </div>
     </div>
   </div>
 
   <div class="form-group mb-3">
+    <%= tip_form.label :tip_expiry, 'Enter expiry time' %>
+    <div class="input-group">
+      <%= tip_form.text_field :tip_expiry, class: 'form-control time-picker', required: true %>
+      <div class="input-group-append">
+        <span class="input-group-text"><i class="fas fa-clock"></i></span>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="form-group mb-3">
     <%= tip_form.label 'Message' %>
-    <%= tip_form.text_area :tip_content, class: 'form-control', rows: '5' %>
+    <%= tip_form.text_area :tip_content, class: 'form-control', rows: '5', required: true %>
   </div>
   <div class="actions">
     <%= tip_form.submit  class: 'btn btn-primary'  %>

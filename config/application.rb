@@ -17,8 +17,8 @@ module BetApp
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
     config.eager_load_paths << Rails.root.join('lib')
-    config.autoload_paths += %W(#{config.root}/lib)
-    config.time_zone = 'Nairobi'
+    config.autoload_paths += %W[#{config.root}/lib]
+    config.default_timezone = 'Nairobi'
     config.active_record.default_timezone = :local
   end
 end

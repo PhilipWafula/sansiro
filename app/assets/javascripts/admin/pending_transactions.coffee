@@ -1,5 +1,12 @@
 $ ->
   pendingTransactionsTable = $('#pendingTransactionsTable').dataTable
+    keys: !0
+    language: paginate:
+      previous: '<i class=\'mdi mdi-chevron-left\'>'
+      next: '<i class=\'mdi mdi-chevron-right\'>'
+    drawCallback: ->
+      $('.dataTables_paginate > .pagination').addClass 'pagination-rounded'
+      $('.first.paginate_button, .last.paginate_button').hide()
     processing: true
     serverSide: true
     columnDefs: [ {
@@ -27,7 +34,3 @@ $ ->
     if id
       url = '/admin/pending_transactions/' + id
       document.location.href = url
-
-  'createdRow': (row, data, index) ->
-    $('td:eq(0)', row).html '<td><a href=' + data[0] + '/edit><span class="fas fa-eye" aria-hidden="true"></span></a></td>'
-    return

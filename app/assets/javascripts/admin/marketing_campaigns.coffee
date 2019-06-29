@@ -1,6 +1,13 @@
 
 $ ->
   marketingCampaignsTable = $('#marketingCampaignsTable').dataTable
+    keys: !0
+    language: paginate:
+      previous: '<i class=\'mdi mdi-chevron-left\'>'
+      next: '<i class=\'mdi mdi-chevron-right\'>'
+    drawCallback: ->
+      $('.dataTables_paginate > .pagination').addClass 'pagination-rounded'
+      $('.first.paginate_button, .last.paginate_button').hide()
     processing: true
     serverSide: true
     columnDefs: [{

@@ -1,0 +1,47 @@
+<!-- start page title -->
+<div class="row">
+  <div class="col-12">
+    <div class="page-title-box">
+      <div class="page-title-right">
+        <ol class="breadcrumb m-0">
+          <li class="breadcrumb-item">
+            <%= link_to 'Dashboard', admin_root_path %>
+          </li>
+          <li class="breadcrumb-item active">Resolved Transactions</li>
+        </ol>
+      </div>
+      <h4 class="page-title">Resolved Transactions</h4>
+    </div>
+  </div>
+</div>
+<!-- end page title -->
+<div class="row">
+  <div class="col-12">
+    <div class="card shadow mb-4">
+      <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+        <h6 class="m-0 font-weight-bold text-primary">Resolved Transactions Datatable</h6>
+      </div>
+      <div class="card-body">
+        <div class="table-responsive">
+          <table id="resolvedTransactionsTable" class="table table-striped table-bordered" data-source="<%= admin_resolved_transactions_path(format: :json) %>">
+            <thead>
+            <tr>
+              <th>SN:</th>
+              <th>First name</th>
+              <th>Last name</th>
+              <th>Amount</th>
+              <th>Package</th>
+              <th>Recipient Number</th>
+              <th>Timestamp</th>
+              <th>Status</th>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

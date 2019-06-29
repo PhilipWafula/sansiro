@@ -1,4 +1,21 @@
-<%= render partial: 'layouts/flash_messages' %>
+<!-- start page title -->
+<div class="row">
+  <div class="col-12">
+    <div class="page-title-box">
+      <div class="page-title-right">
+        <ol class="breadcrumb m-0">
+          <li class="breadcrumb-item">
+            <%= link_to 'Dashboard', admin_root_path %>
+          </li>
+          <li class="breadcrumb-item active">Pending Transaction</li>
+        </ol>
+      </div>
+      <h4 class="page-title">Transaction</h4>
+    </div>
+  </div>
+</div>
+<!-- end page title -->
+
 
 <div class="row">
   <div class="col-12">
@@ -47,8 +64,6 @@
             <label class="control-label col-md-3 col-sm-3 col-xs-20">Message Status</label>
             <%= @admin_pending_transaction.child_message_status %>
           </div><br>
-
-          <%= link_to 'Retry', admin_retry_transaction_path(@admin_pending_transaction), class: 'btn btn-primary', method: :post %>
           <%= link_to 'Back', admin_pending_transactions_path, class: 'btn btn-primary' %>
         </div>
       </div>

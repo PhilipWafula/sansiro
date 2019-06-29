@@ -1,3 +1,21 @@
+<!-- start page title -->
+<div class="row">
+  <div class="col-12">
+    <div class="page-title-box">
+      <div class="page-title-right">
+        <ol class="breadcrumb m-0">
+          <li class="breadcrumb-item">
+            <%= link_to 'Dashboard', admin_root_path %>
+          </li>
+          <li class="breadcrumb-item active">Create tip</li>
+        </ol>
+      </div>
+      <h4 class="page-title">Create Tip</h4>
+    </div>
+  </div>
+</div>
+<!-- end page title -->
+
 <div class="row">
   <div class="col-12">
     <div class="card shadow mb-4">
@@ -8,7 +26,6 @@
         <%= render 'form', admin_tip: @admin_tip %>
       </div>
     </div>
-    <%= link_to 'Show', @admin_tip, class: 'btn btn-primary' %>
     <%= link_to 'Back', admin_tips_path, class: 'btn btn-primary' %>
     </div>
 </div>

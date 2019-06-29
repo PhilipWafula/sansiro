@@ -1,4 +1,3 @@
-//= require datatables/jquery.dataTables
 
 // optional change '//' --> '//=' to enable
 
@@ -16,16 +15,17 @@
 // require datatables/extensions/RowGroup/dataTables.rowGroup
 // require datatables/extensions/RowReorder/dataTables.rowReorder
 // require datatables/extensions/Scroller/dataTables.scroller
-//= require datatables/extensions/Select/dataTables.select
+//= require datatables/jquery.dataTables
 //= require datatables/dataTables.bootstrap4
-
-//Optional Datatables extensions
 //= require datatables/extensions/Responsive/dataTables.responsive
 //= require datatables/extensions/Responsive/responsive.bootstrap4
 //= require datatables/extensions/Buttons/dataTables.buttons
-//= require datatables/extensions/Buttons/buttons.html5
-//= require datatables/extensions/Buttons/buttons.print
 //= require datatables/extensions/Buttons/buttons.bootstrap4
+//= require datatables/extensions/Buttons/buttons.html5
+//= require datatables/extensions/Buttons/buttons.flash
+//= require datatables/extensions/Buttons/buttons.print
+//= require datatables/extensions/KeyTable/dataTables.keyTable
+//= require datatables/extensions/Select/dataTables.select
 //Global setting and initializer
 
 $.extend( $.fn.dataTable.defaults, {

@@ -1,78 +1,92 @@
-<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
-  <%= link_to admin_root_path, class: 'sidebar-brand d-flex align-items-center justify-content-center' do %>
-    <div class="sidebar-brand-icon rotate-n-15">
-      <i class="fas fa-lightbulb"></i>
+<div class="left-side-menu">
+
+  <div class="slimscroll-menu" id="left-side-menu-container">
+    <!--LOGO-->
+    <div class="menu-list">
+      <%= link_to '', class: 'logo text-center' do %>
+        <span class="logo-lg">
+          <%= image_tag 'admin/logo.png', alt: '', height: '16', id: 'side-main-logo' %>
+        </span>
+
+        <span class="logo-sm">
+          <%= image_tag 'admin/logo_sm.png', alt: '', height: '16' %>
+        </span>
+      <% end %>
+
+      <!--- Sidemenu -->
+      <ul class="metismenu side-nav">
+
+        <li class="side-nav-title side-nav-item">Navigation</li>
+
+        <li class="side-nav-item">
+          <%= link_to admin_root_path,  class: 'side-nav-link' do %>
+            <i class="dripicons-meter"></i>
+            <span>Dashboard</span>
+          <% end %>
+        </li>
+
+        <li class="side-nav-item">
+          <a href="javascript: void(0);" class="side-nav-link">
+            <i class="dripicons-message"></i>
+            <span>Campaigns</span>
+            <span class="menu-arrow"></span>
+          </a>
+          <ul class="side-nav-second-level" aria-expanded="false">
+            <li>
+              <%= link_to 'My Campaigns', admin_marketing_campaigns_path %>
+            </li>
+            <li>
+              <%= link_to 'Create Campaign', new_admin_marketing_campaign_path %>
+            </li>
+          </ul>
+        </li>
+
+        <li class="side-nav-item">
+          <a href="javascript: void(0);" class="side-nav-link">
+            <i class="dripicons-lightbulb"></i>
+            <span>Tips</span>
+            <span class="menu-arrow"></span>
+          </a>
+          <ul class="side-nav-second-level" aria-expanded="false">
+            <li>
+              <%= link_to 'My Tips', admin_tips_path %>
+            </li>
+            <li>
+              <%= link_to 'Create Tip', new_admin_tip_path %>
+            </li>
+          </ul>
+        </li>
+
+        <li class="side-nav-item">
+          <a href="javascript: void(0);" class="side-nav-link">
+            <i class="dripicons-list"></i>
+            <span>Transactions</span>
+            <span class="menu-arrow"></span>
+          </a>
+          <ul class="side-nav-second-level" aria-expanded="false">
+            <li>
+              <%= link_to 'Pending Transactions', admin_pending_transactions_path %>
+            </li>
+            <li>
+              <%= link_to 'Scheduled Transactions', admin_mpesa_transactions_path %>
+            </li>
+            <li>
+              <%= link_to 'Resolved Transactions', admin_resolved_transactions_path %>
+            </li>
+          </ul>
+        </li>
+
+        <li class="side-nav-item">
+          <%= link_to admin_error_handling_index_path,  class: 'side-nav-link' do %>
+            <i class="dripicons-warning"></i>
+            <span>Error Handling</span>
+          <% end %>
+        </li>
+
+      </ul>
+
     </div>
-    <div class="sidebar-brand-text mx-3">Betting Tips</div>
-  <% end %>
 
-  <!-- Divider -->
-  <hr class="sidebar-divider my-0">
-
-  <li class="nav-item active">
-    <%= link_to admin_root_path, class: 'nav-link' do%>
-      <i class="fas fa-fw fa-tachometer-alt"></i>
-      <span>Dashboard</span>
-    <% end %>
-  </li>
-
-  <li class="nav-item">
-    <%= link_to 'Transactions', class:'nav-link collapsed', data: {toggle: 'collapse', target: '#collapseTransactions'}, aria: {expanded: 'true', controls: 'collapsePages'} do %>
-      <i class="fas fa-fw fa-clipboard-list"></i> <span>Transactions</span>
-    <% end %>
-    <div id="collapseTransactions" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-      <div class="py-2 collapse-inner">
-        <%= link_to admin_mpesa_transactions_path, class: 'nav-link collapse-item' do %>
-          <span>Scheduled Transactions</span>
-        <% end %>
-
-        <%= link_to admin_pending_transactions_path, class: 'nav-link collapse-item' do %>
-          <span>Pending Transactions</span>
-        <% end %>
-      </div>
-    </div>
-  </li>
-
-  <li class="nav-item">
-    <%= link_to 'Tips', class: 'nav-link collapsed',  data: {toggle: 'collapse', target: '#collapseTips'}, aria: {expanded: 'true', controls: 'collapsePages'} do%>
-      <i class="fas fa-fw fa-lightbulb"></i><span>Tips</span>
-    <% end %>
-    <div id="collapseTips" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-      <div class="py-2 collapse-inner">
-        <%= link_to admin_tips_path, class: 'nav-link collapse-item' do %>
-          <span>Tips</span>
-        <% end %>
-
-        <%= link_to new_admin_tip_path, class: 'nav-link collapse-item' do %>
-          <span>Create Tip</span>
-        <% end %>
-      </div>
-    </div>
-  </li>
-
-  <li class="nav-item">
-    <%= link_to 'Campaign Messages', class:'nav-link collapsed', data: {toggle: 'collapse', target: '#collapsePages'}, aria: {expanded: 'true', controls: 'collapsePages'} do %>
-      <i class="fas fa-fw fa-comment-alt"></i> <span>Campaign Messages</span>
-    <% end %>
-    <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-      <div class="py-2 collapse-inner">
-        <%= link_to admin_marketing_campaigns_path, class: 'nav-link collapse-item' do %>
-          <span>My Campaigns</span>
-        <% end %>
-
-        <%= link_to new_admin_marketing_campaign_path, class: 'nav-link collapse-item' do %>
-          <span>Create Campaign</span>
-        <% end %>
-      </div>
-    </div>
-  </li>
-
-  <!-- Divider -->
-  <hr class="sidebar-divider d-none d-md-block">
-
-  <!-- Sidebar Toggler (Sidebar) -->
-  <div class="text-center d-none d-md-inline">
-    <button class="rounded-circle border-0" id="sidebarToggle"></button>
   </div>
-</ul>
+</div>

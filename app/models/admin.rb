@@ -6,5 +6,6 @@ class Admin < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable,
          :confirmable, :trackable, :lockable, :timeoutable
-  has_many :admin_tips, class_name: 'Admin::Tip'
+
+  has_many :tips, class_name: 'Tip'
 end

@@ -1,0 +1,27 @@
+//
+// Nunito fonts
+//
+
+@font-face {
+  font-family: 'Nunito';
+  src: font_url('admin/Nunito-Regular.eot');
+  src: local('Nunito Regular'), local('Nunito-Regular'), font_url('admin/Nunito-Regular.eot?#iefix') format('embedded-opentype'), font_url('admin/Nunito-Regular.woff') format('woff'), font_url('admin/Nunito-Regular.ttf') format('truetype'), font_url('admin/Nunito-Regular.svg#Roboto') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: font_url('admin/Nunito-SemiBold.eot');
+  src: local('Nunito SemiBold'), local('Nunito-SemiBold'), font_url('admin/Nunito-SemiBold.eot?#iefix') format('embedded-opentype'), font_url('admin/Nunito-SemiBold.woff') format('woff'), font_url('admin/Nunito-SemiBold.ttf') format('truetype'), font_url('admin/Nunito-SemiBold.svg#Roboto') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: font_url('admin/Nunito-Bold.eot');
+  src: local('Nunito Bold'), local('Nunito-Bold'), font_url('admin/Nunito-Bold.eot?#iefix') format('embedded-opentype'), font_url('admin/Nunito-Bold.woff') format('woff'), font_url('admin/Nunito-Bold.ttf') format('truetype'), font_url('../public/fonts/Nunito-Bold.svg#Roboto') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}

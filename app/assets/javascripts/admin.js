@@ -17,17 +17,20 @@
 //= require popper
 //= require datatables
 //= require bootstrap-sprockets
-//= require moment
-//= require tempusdominus-bootstrap-4
 //= require admin/marketing_campaigns
 //= require admin/dashboard
 //= require admin/pending_transactions
 //= require admin/mpesa_transactions
+//= require admin/resolved_transactions
 //= require admin/tips
 //= require dropzone
+//= require metismenu/dist/metisMenu
+//= require jquery.slimscroll
 //= require chart.js/Chart.min
 //= require admin/chart-area-demo
 //= require admin/chart-bar-demo
 //= require admin/chart-pie-demo
+//= require bootstrap-datepicker/js/bootstrap-datepicker
+//= require bootstrap-timepicker/js/bootstrap-timepicker
 
 
