@@ -29,7 +29,6 @@
 //= require admin/chart-area-demo
 //= require admin/chart-bar-demo
 //= require admin/chart-pie-demo
-//= require bootstrap-datepicker/js/bootstrap-datepicker
-//= require bootstrap-timepicker/js/bootstrap-timepicker
-
+//= require admin/bootstrap-datepicker.js
+//= require admin/bootstrap-timepicker.js
 

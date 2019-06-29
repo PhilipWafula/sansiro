@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2074074-1cbd-47a8-8466-f382c95193d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/admin/bootstrap-datepicker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/admin/tips.coffee" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/admin/tips.coffee" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin/tips/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/tips/_form.html.erb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,15 +70,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/admin/tips/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1183">
-              <caret line="155" column="6" selection-start-line="155" selection-start-column="6" selection-end-line="155" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/pending_transactions.coffee">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
@@ -84,13 +78,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/tips.coffee">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/admin/tips/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="399">
+              <caret line="19" column="71" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/tips.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="511">
+              <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/bootstrap-datepicker.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -174,7 +182,6 @@
         <option value="$PROJECT_DIR$/app/views/admin/pending_transactions/show.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20190523044656_create_tips.rb" />
         <option value="$PROJECT_DIR$/app/views/admin/tips/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/admin/tips/_form.html.erb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/controllers/admin/tips_controller.rb" />
         <option value="$PROJECT_DIR$/app/helpers/admin/tips_helper.rb" />
@@ -192,6 +199,7 @@
         <option value="$PROJECT_DIR$/app/views/admin/tips/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/admin.js" />
         <option value="$PROJECT_DIR$/app/views/layouts/admin/application.erb" />
+        <option value="$PROJECT_DIR$/app/views/admin/tips/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/admin/tips.coffee" />
       </list>
     </option>
@@ -234,6 +242,21 @@
               <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="bet_app" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -251,6 +274,60 @@
               <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="tips" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap-datepicker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap-datepicker" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap-datepicker" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bet_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bet_app" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap-datepicker" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -263,7 +340,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/assets/fonts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/assets/javascripts/admin" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -565,12 +642,12 @@
       <workItem from="1561536920728" duration="26252000" />
       <workItem from="1561609244597" duration="49964000" />
       <workItem from="1561710656440" duration="981000" />
-      <workItem from="1561768577548" duration="14274000" />
+      <workItem from="1561768577548" duration="14910000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="835367000" />
+    <option name="totallyTimeSpent" value="836003000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -586,7 +663,7 @@
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5076754" side_tool="true" weight="0.45923632" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49232456" visible="true" weight="0.27027026" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49232456" visible="true" weight="0.27027026" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32785088" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49862108" weight="0.4054945" />
@@ -663,20 +740,6 @@
     <SUITE FILE_PATH="coverage/bet_app@Rails_console__bet_app.rcov" NAME="Rails console: bet_app Coverage Results" MODIFIED="1561670415001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bet_app" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/admin/marketing_campaigns/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20190627092547_create_resolved_transactions.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -744,20 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="56" column="8" lean-forward="true" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/tips/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/tips/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="64" lean-forward="true" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="75" />
         </state>
       </provider>
     </entry>
@@ -999,6 +1048,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/tips/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1939">
+          <caret line="155" column="6" selection-start-line="155" selection-start-column="6" selection-end-line="155" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/tips/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/pending_transactions.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -1006,19 +1069,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/tips/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/admin/tips/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1183">
-          <caret line="155" column="6" selection-start-line="155" selection-start-column="6" selection-end-line="155" selection-end-column="6" />
+        <state relative-caret-position="399">
+          <caret line="19" column="71" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-datepicker/dist/js/bootstrap-datepicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="1673" column="4" selection-start-line="1673" selection-start-column="4" selection-end-line="1673" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/tips.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="511">
+          <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin/bootstrap-datepicker.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

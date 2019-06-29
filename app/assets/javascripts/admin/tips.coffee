@@ -54,11 +54,11 @@ number_format = (number, decimals, dec_point, thousands_sep) ->
 
 $ ->
 # date pickers
-  $('.date-picker').datepicker
+  $('.custom-date-picker').datepicker
     format: 'dd/mm/yyyy'
     startDate: '-0d'
 
-  $('.time-picker').timepicker
+  $('.custom-time-picker').timepicker
     defaultTime: 'current'
     showSeconds: false
     icons:

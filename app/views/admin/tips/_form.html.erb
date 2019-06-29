@@ -7,7 +7,7 @@
   <div class="form-group mb-3">
     <%= tip_form.label :tip_date, 'Tip date' %>
     <div class="input-group">
-      <%= tip_form.text_field :tip_date, class: 'form-control date-picker', required: true %>
+      <%= tip_form.text_field :tip_date, class: 'form-control custom-date-picker', required: true %>
       <div class="input-group-append">
         <span class="input-group-text"><i class="fas fa-calendar"></i></span>
       </div>
@@ -17,7 +17,7 @@
   <div class="form-group mb-3">
     <%= tip_form.label :tip_expiry, 'Enter expiry time' %>
     <div class="input-group">
-      <%= tip_form.text_field :tip_expiry, class: 'form-control time-picker', required: true %>
+      <%= tip_form.text_field :tip_expiry, class: 'form-control custom-time-picker', required: true %>
       <div class="input-group-append">
         <span class="input-group-text"><i class="fas fa-clock"></i></span>
       </div>
