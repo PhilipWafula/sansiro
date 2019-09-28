@@ -35,7 +35,7 @@ class ProcessTransactionService
   end
 
   def send_tip(recipient_phone, message)
-    TipsSmsWorker.perform_async(recipient_phone, message)
+    SmsLeopardsTipsWorker.perform_async(recipient_phone, message)
   end
 
   def process_admin_tip(request)
