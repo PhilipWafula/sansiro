@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2074074-1cbd-47a8-8466-f382c95193d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/error_handling_service.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/workers/sms_leopards_worker.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/bulk_sms/sms_leopards.rb" afterDir="false" />
+    <list default="true" id="d2074074-1cbd-47a8-8466-f382c95193d0" name="Default Changelist" comment="Added sms leopards support and integrated new kopokopo account.">
+      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/53211d0f-bb7a-4801-9647-93691bf8144f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/53211d0f-bb7a-4801-9647-93691bf8144f.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/53211d0f-bb7a-4801-9647-93691bf8144f/storage_v2/_src_/database/bet_app_development.b9zljg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/53211d0f-bb7a-4801-9647-93691bf8144f/storage_v2/_src_/database/bet_app_development.b9zljg/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/admin/error_handling_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/error_handling_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/process_transaction_service.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/process_transaction_service.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/workers/tips_sms_worker.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/workers/africas_talking_tips_worker.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/credentials.yml.enc" beforeDir="false" afterPath="$PROJECT_DIR$/config/credentials.yml.enc" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,40 +75,6 @@
         <option value="Ruby File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>HMAC</find>
-      <find>SHA1</find>
-      <find>sha</find>
-      <find>OpenSSL::HMAC.digest</find>
-      <find>sha-1</find>
-      <find>hello</find>
-      <find>sender_phone</find>
-      <find>401</find>
-      <find>datepicker</find>
-      <find>&lt;tbody&gt;&lt;tr&gt;&lt;td colspan=&quot;7&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;</find>
-      <find>data-</find>
-      <find>primary</find>
-      <find>cale</find>
-      <find>dark</find>
-      <find>options</find>
-      <find>default</find>
-      <find>40000</find>
-      <find>revenue</find>
-      <find>before</find>
-      <find>format</find>
-      <find>moment.js</find>
-      <find>locale</find>
-      <find>moment</find>
-      <find>local</find>
-      <find>time</find>
-      <find>utc</find>
-      <find>table-responsive</find>
-      <find>nowrap</find>
-      <find>w-100</find>
-      <find>assets</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -306,6 +268,16 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="false" RAILS_SPRING_PRE_LOADER_OPTION="false" />
   <component name="SvnConfiguration">
     <configuration />
@@ -449,8 +421,26 @@
       <workItem from="1569227702394" duration="113000" />
       <workItem from="1569325232710" duration="1489000" />
       <workItem from="1569558262793" duration="611000" />
-      <workItem from="1569643438089" duration="9051000" />
+      <workItem from="1569643438089" duration="9884000" />
+      <workItem from="1569733069891" duration="189000" />
+      <workItem from="1571461442316" duration="11178000" />
+      <workItem from="1571488094536" duration="12982000" />
     </task>
+    <task id="LOCAL-00001" summary="Added sms leopards support and integrated new kopokopo account.">
+      <created>1569652729658</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569652729658</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Refactored app to sms leopards">
+      <created>1571504298881</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571504298881</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -492,7 +482,12 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added sms leopards support and integrated new kopokopo account." />
+    <MESSAGE value="Refactored app to sms leopards" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored app to sms leopards" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/bet_app@Rails_console__bet_app.rcov" NAME="Rails console: bet_app Coverage Results" MODIFIED="1569652661656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bet_app" />
+    <SUITE FILE_PATH="coverage/bet_app@Rails_console__bet_app.rcov" NAME="Rails console: bet_app Coverage Results" MODIFIED="1571500846882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bet_app" />
   </component>
 </project>
