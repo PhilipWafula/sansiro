@@ -11,7 +11,7 @@ class ProcessTransactionService
     # get recipient
     recipient = request['sender_phone']
     # add subscription package
-    compute_subscription_package(request['amount'].to_f, recipient, request)
+    compute_subscription_package(request['amount'].to_d, recipient, request)
     # process tip
     process_admin_tip(request)
   end
@@ -28,14 +28,16 @@ class ProcessTransactionService
       subscription_package = 'Jackpot'
     else
       subscription_package = 'Irregular'
-      BulkSmsWorker.perform_async(recipient, 'The amount sent is invalid, please send 50 for regular, 100 for premium or 80 for Jackpot')
+      SmsLeopardsWorker.perform_async(recipient,
+                                      'The amount sent is invalid, please send 50 for regular, 100 for premium or 80 for Jackpot',
+                                      default_sender(request['business_number']))
       process_transaction_logger.info 'Invalid amount paid'
     end
     request['subscription_package'] = subscription_package
   end
 
-  def send_tip(recipient_phone, message)
-    SmsLeopardsTipsWorker.perform_async(recipient_phone, message)
+  def send_tip(recipient_phone, message, sender_account)
+    SmsLeopardsWorker.perform_async(recipient_phone, message, sender_account)
   end
 
   def process_admin_tip(request)
@@ -45,15 +47,26 @@ class ProcessTransactionService
     child_message = ''
     # get message
     child_message = valid_tip.take!.tip_content unless valid_tip.blank?
+    # get sender
+    sender_account = ''
+    sender_account = valid_tip.take!.tip_sender unless valid_tip.blank?
     # send tips
     if child_message.blank? && request['child_message_status'].blank?
       request['child_message_status'] = 'Pending'
-      BulkSmsWorker.perform_async(message_recipient, 'Your payment has been received and tips will be sent shortly')
+      if valid_payment?(request['amount'])
+        SmsLeopardsWorker.perform_async(message_recipient,
+                                        'Your payment has been received and tips will be sent shortly',
+                                        default_sender(request['business_number']))
+      end
       PendingTransaction.new(request).save!
       process_transaction_logger.info 'Pending transaction logged.'
     else
       request['child_message_status'] = 'Scheduled'
-      send_tip(message_recipient, child_message)
+      if sender_account.blank?
+        send_tip(message_recipient, child_message, default_sender(request['business_number']))
+      else
+        send_tip(message_recipient, child_message, sender_account)
+      end
       MpesaTransaction.new(request).save!
     end
   end
@@ -75,5 +88,18 @@ class ProcessTransactionService
                                     else
                                       Logger.new("#{Rails.root}/log/services/process_transaction_logger.log")
                                     end
+  end
+
+  def default_sender(business_number)
+    case business_number
+    when '598771'
+      'OFFSIDE'
+    else
+      'SANSIROTECH'
+    end
+  end
+
+  def valid_payment?(amount)
+    [50, 80, 100].include?(amount)
   end
 end

@@ -84,7 +84,11 @@ class Admin::TipsController < ApplicationController
 
   # Never trust parameters from the scary internet, only allow the white list through.
   def tip_params
-    params.require(:tip).permit(:tip_package, :tip_expiry, :tip_date, :tip_content)
+    params.require(:tip).permit(:tip_package,
+                                :tip_sender,
+                                :tip_expiry,
+                                :tip_date,
+                                :tip_content)
   end
 
   def process_tip_params(params)

@@ -8,6 +8,7 @@ class TipsDatatable < AjaxDatatablesRails::ActiveRecord
       # name: { source: "User.name", cond: :like }
       id: { source: 'Tip.id' },
       tip_package: { source: 'Tip.tip_package' },
+      tip_sender: { source: 'Tip.tip_sender' },
       tip_date: { source: 'Tip.tip_date' },
       tip_expiry: { source: 'Tip.tip_expiry' },
       tip_content: { source: 'Tip.tip_content' }
@@ -22,8 +23,9 @@ class TipsDatatable < AjaxDatatablesRails::ActiveRecord
         # name: tip.name
         id: tip.id,
         tip_package: tip.tip_package,
+        tip_sender: tip.tip_sender,
         tip_date: tip.tip_date,
-        tip_expiry: tip.tip_expiry,
+        tip_expiry: Time.parse(tip.tip_expiry)&.strftime('%d-%m-%Y, %I:%M %p'),
         tip_content: tip.tip_content,
         DT_RowId: tip.id
       }

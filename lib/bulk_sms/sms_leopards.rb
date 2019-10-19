@@ -5,18 +5,18 @@ require 'json'
 
 module BulkSms
   class SmsLeopards
-    def relay_message(recipient, message)
+    def relay_message(recipient, message, sender_account)
       api_response = nil
       # build message hash
       destination = [{ 'number' => recipient }]
       gateway_params = {
-        source: 'SANSIROTECH',
+        source: sender_account,
         message: message,
         destination: destination,
-        status_secret: Rails.application.credentials[Rails.env.to_sym][:sms_leopards_status_secret]
+        status_secret: sender_configs(sender_account)[:sms_leopards_status_secret]
       }
 
-      headers = { "Content-Type": 'application/json', "Authorization": Rails.application.credentials[Rails.env.to_sym][:sms_leopards_basic_auth] }
+      headers = { "Content-Type": 'application/json', "Authorization": sender_configs(sender_account)[:sms_leopards_basic_auth] }
 
       request = Typhoeus::Request.new(Rails.application.credentials[Rails.env.to_sym][:sms_leopards_gateway_endpoint],
                                       method: :post,
@@ -35,7 +35,6 @@ module BulkSms
       end
       sms_leopards_logger.info("Dispatching SMS to PRSP: #{request.inspect}")
       request.run
-      puts api_response
     end
 
     def basic_auth_token
@@ -59,6 +58,23 @@ module BulkSms
         end
       end
       report
+    end
+
+    def sender_configs(sender)
+      configs = {}
+      case sender
+      when 'EUROPA_TECH'
+        configs.merge(sms_leopards_basic_auth: Rails.application.credentials[Rails.env.to_sym][:sms_leopards_europa_tech_basic_auth],
+                      sms_leopards_status_secret: Rails.application.credentials[Rails.env.to_sym][:sms_leopards_europa_tech_status_secret])
+      when 'OFFSIDE'
+        configs.merge(sms_leopards_basic_auth: Rails.application.credentials[Rails.env.to_sym][:sms_leopards_offside_basic_auth],
+                      sms_leopards_status_secret: Rails.application.credentials[Rails.env.to_sym][:sms_leopards_offside_status_secret])
+      when 'SANSIROTECH'
+        configs.merge(sms_leopards_basic_auth: Rails.application.credentials[Rails.env.to_sym][:sms_leopards_sansiro_basic_auth],
+                      sms_leopards_status_secret: Rails.application.credentials[Rails.env.to_sym][:sms_leopards_sansiro_status_secret])
+      else
+        sms_leopards_logger.error('Cannot commute sender configs.')
+      end
     end
 
     def sms_leopards_logger

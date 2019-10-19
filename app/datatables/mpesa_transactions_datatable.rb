@@ -30,7 +30,7 @@ class MpesaTransactionsDatatable < AjaxDatatablesRails::ActiveRecord
         amount: pt.amount,
         subscription_package: pt.subscription_package,
         sender_phone: pt.sender_phone,
-        transaction_timestamp: pt.transaction_timestamp,
+        transaction_timestamp: pt.transaction_timestamp&.strftime('%Y-%m-%d %T'),
         child_message_status: pt.child_message_status,
         DT_RowId: pt.id
       }

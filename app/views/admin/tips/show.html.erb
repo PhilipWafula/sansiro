@@ -39,6 +39,11 @@
           </div><br>
 
           <div class="form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-20">Sender Account</label>
+            <%= @tip.tip_package %>
+          </div><br>
+
+          <div class="form-group">
             <label class="control-label col-md-3 col-sm-3 col-xs-20">Expiry</label>
             <%= twelve_hour_format(@tip.tip_expiry) %>
           </div><br>

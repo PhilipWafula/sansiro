@@ -5,7 +5,7 @@ require 'base64'
 require 'openssl'
 
 class Admin::MpesaTransactionsController < ApplicationController
-  protect_from_forgery with: :null_session, only: :receive
+  skip_before_action :verify_authenticity_token, only: :receive
   before_action :authenticate_admin!, except: :receive
   layout 'admin/application'
 
@@ -29,7 +29,7 @@ class Admin::MpesaTransactionsController < ApplicationController
     if request.blank?
       render json: { message: 'Bad Request' }, status: :bad_request
     else
-      # REVISIT THIS TO VALIDATE K2 REQUESTS
+      # TODO: REVISIT THIS TO VALIDATE K2 REQUESTS
       # Get request body
       request_body = Yajl::Parser.parse(request.body.string.as_json)
       ProcessTransactionService.new(request_body).process_request
@@ -45,22 +45,22 @@ class Admin::MpesaTransactionsController < ApplicationController
   end
 
   def transaction_params
-    params.require(:mpesa_transaction).permit(:service_name,
-                                              :business_number,
-                                              :transaction_reference,
-                                              :internal_transaction_id,
-                                              :transaction_timestamp,
-                                              :transaction_type,
-                                              :account_number,
-                                              :sender_phone,
-                                              :first_name,
-                                              :middle_name,
-                                              :last_name,
-                                              :amount,
-                                              :currency,
-                                              :signature,
-                                              :message_sent,
-                                              :package,
-                                              :child_message_status)
+    params.permit(:service_name,
+                  :business_number,
+                  :transaction_reference,
+                  :internal_transaction_id,
+                  :transaction_timestamp,
+                  :transaction_type,
+                  :account_number,
+                  :sender_phone,
+                  :first_name,
+                  :middle_name,
+                  :last_name,
+                  :amount,
+                  :currency,
+                  :signature,
+                  :message_sent,
+                  :package,
+                  :child_message_status)
   end
 end

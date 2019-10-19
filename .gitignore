@@ -27,3 +27,9 @@
 /config/master.key
 /config/database.yml
 /config/secrets.yml
+
+# IDE Files
+.DS_STORE
+.vscode
+.idea
+.env

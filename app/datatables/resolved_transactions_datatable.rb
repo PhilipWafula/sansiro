@@ -29,7 +29,7 @@ class ResolvedTransactionsDatatable < AjaxDatatablesRails::ActiveRecord
         amount: resolved_transaction.amount,
         subscription_package: resolved_transaction.subscription_package,
         sender_phone: resolved_transaction.sender_phone,
-        transaction_timestamp: resolved_transaction.transaction_timestamp,
+        transaction_timestamp: resolved_transaction.transaction_timestamp&.strftime('%Y-%m-%d %T'),
         child_message_status: resolved_transaction.child_message_status,
         DT_RowId: resolved_transaction.id
       }

@@ -20,6 +20,7 @@ $ ->
       {data: 'id'}
       {data: 'tip_content'}
       {data: 'tip_package'}
+      {data: 'tip_sender'}
       {data: 'tip_expiry'}
       {data: 'tip_date'}
     ]

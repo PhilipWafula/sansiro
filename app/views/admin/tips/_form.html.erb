@@ -5,6 +5,11 @@
   </div>
 
   <div class="form-group mb-3">
+    <%= tip_form.label :tip_sender, 'Select a tip sender account' %>
+    <%= tip_form.select :tip_sender, %w(EUROPA_TECH OFFSIDE SANSIROTECH), {}, class: 'form-control', required: true %>
+  </div>
+
+  <div class="form-group mb-3">
     <%= tip_form.label :tip_date, 'Tip date' %>
     <div class="input-group">
       <%= tip_form.text_field :tip_date, class: 'form-control custom-date-picker', required: true %>
