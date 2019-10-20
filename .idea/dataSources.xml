@@ -17,5 +17,11 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://127.0.0.1:5432/bet_app_test</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="bet_app:production" uuid="f23e395a-a54b-48a2-a9c9-522e1f129bac">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://ec2-54-163-226-238.compute-1.amazonaws.com:5432/dci7e7rt568an5</jdbc-url>
+    </data-source>
   </component>
 </project>
