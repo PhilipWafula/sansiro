@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2074074-1cbd-47a8-8466-f382c95193d0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -478,7 +476,7 @@
       <workItem from="1571461442316" duration="11178000" />
       <workItem from="1571488094536" duration="13460000" />
       <workItem from="1571505021434" duration="903000" />
-      <workItem from="1571548019933" duration="1323000" />
+      <workItem from="1571548019933" duration="1660000" />
     </task>
     <task id="LOCAL-00001" summary="Added sms leopards support and integrated new kopokopo account.">
       <created>1569652729658</created>
@@ -501,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571504555171</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ide files">
+      <created>1571549488533</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571549488533</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
