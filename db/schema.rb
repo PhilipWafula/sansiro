@@ -10,20 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_10_19_154521) do
+ActiveRecord::Schema.define(version: 2019_10_21_134047) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-
-  create_table "admin_tips", force: :cascade do |t|
-    t.string "tip_content"
-    t.string "tip_package"
-    t.date "tip_date", null: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.bigint "admin_id"
-    t.index ["admin_id"], name: "index_admin_tips_on_admin_id"
-  end
 
   create_table "admins", force: :cascade do |t|
     t.string "email", default: "", null: false
@@ -135,14 +125,14 @@ ActiveRecord::Schema.define(version: 2019_10_19_154521) do
   create_table "tips", force: :cascade do |t|
     t.string "tip_content"
     t.string "tip_package"
-    t.string "tip_expiry"
     t.date "tip_date", null: false
     t.bigint "admin_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "tip_sender"
+    t.datetime "tip_expiry"
     t.index ["admin_id"], name: "index_tips_on_admin_id"
   end
 
-  add_foreign_key "admin_tips", "admins"
+  add_foreign_key "tips", "admins"
 end

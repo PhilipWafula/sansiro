@@ -25,7 +25,7 @@ class TipsDatatable < AjaxDatatablesRails::ActiveRecord
         tip_package: tip.tip_package,
         tip_sender: tip.tip_sender,
         tip_date: tip.tip_date,
-        tip_expiry: Time.parse(tip.tip_expiry)&.strftime('%d-%m-%Y, %I:%M %p'),
+        tip_expiry: tip.tip_expiry&.strftime('%d-%m-%Y, %I:%M %p'),
         tip_content: tip.tip_content,
         DT_RowId: tip.id
       }

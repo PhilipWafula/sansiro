@@ -28,15 +28,17 @@ class ProcessTransactionService
       subscription_package = 'Jackpot'
     else
       subscription_package = 'Irregular'
-      SmsLeopardsWorker.perform_async(recipient,
-                                      'The amount sent is invalid, please send 50 for regular, 100 for premium or 80 for Jackpot',
-                                      default_sender(request['business_number']))
+      #SmsLeopardsWorker.perform_async(recipient,
+                                      #'The amount sent is invalid, please send 50 for regular, 100 for premium or 80 for Jackpot',
+                                      #default_sender(request['business_number']))
+      puts 'AMOUNT: ', amount
     end
     request['subscription_package'] = subscription_package
   end
 
   def send_tip(recipient_phone, message, sender_account)
-    SmsLeopardsWorker.perform_async(recipient_phone, message, sender_account)
+    # SmsLeopardsWorker.perform_async(recipient_phone, message, sender_account)
+    puts 'SEND TIP: ', recipient_phone, message, sender_account
   end
 
   def process_admin_tip(request)
@@ -53,9 +55,9 @@ class ProcessTransactionService
     if child_message.blank? && request['child_message_status'].blank?
       request['child_message_status'] = 'Pending'
       if valid_payment?(request['amount'])
-        SmsLeopardsWorker.perform_async(message_recipient,
-                                        'Your payment has been received and tips will be sent shortly',
-                                        default_sender(request['business_number']))
+        #SmsLeopardsWorker.perform_async(message_recipient,
+                                        #'Your payment has been received and tips will be sent shortly',
+                                        #default_sender(request['business_number']))
       end
       PendingTransaction.new(request).save!
     else
@@ -73,11 +75,13 @@ class ProcessTransactionService
     # get subscription package
     subscription_package = request['subscription_package']
     # get transaction date
-    transaction_date = request['transaction_timestamp']
+    transaction_date = request['transaction_timestamp'].to_date
+    puts 'TRANSACTION DATE: ', transaction_date
     # get message recipient
     current_time = Time.now
     # get tip
-    Tip.where('tip_expiry > ? AND tip_package = ? AND tip_date = ?', current_time, subscription_package, transaction_date)
+    tip = Tip.where('tip_expiry > ? AND tip_package = ? AND tip_date = ?', current_time, subscription_package, transaction_date)
+    puts 'TIP CONTENT AND TIME', tip.map{|valid_tip| valid_tip.tip_expiry} unless tip.blank?
   end
 
   def process_transaction_logger

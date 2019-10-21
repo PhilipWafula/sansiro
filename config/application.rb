@@ -19,6 +19,7 @@ module BetApp
     config.eager_load_paths << Rails.root.join('lib')
     config.autoload_paths += %W[#{config.root}/lib]
     config.default_timezone = 'Nairobi'
+    config.time_zone = 'Nairobi'
     config.active_record.default_timezone = :local
   end
 end
