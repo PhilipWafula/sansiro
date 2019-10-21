@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2074074-1cbd-47a8-8466-f382c95193d0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/admin/pending_transactions_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/pending_transactions_controller.rb" afterDir="false" />
-    </list>
+    <list default="true" id="d2074074-1cbd-47a8-8466-f382c95193d0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -389,7 +386,7 @@
       <workItem from="1571488094536" duration="13460000" />
       <workItem from="1571505021434" duration="903000" />
       <workItem from="1571548019933" duration="1660000" />
-      <workItem from="1571650918128" duration="6333000" />
+      <workItem from="1571650918128" duration="6592000" />
     </task>
     <task id="LOCAL-00001" summary="Added sms leopards support and integrated new kopokopo account.">
       <created>1569652729658</created>
@@ -426,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571655883802</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Refactor pending transactions">
+      <created>1571658489030</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1571658489030</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -473,7 +477,8 @@
     <MESSAGE value="Refactored app to sms leopards" />
     <MESSAGE value="Ide files" />
     <MESSAGE value="Refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor" />
+    <MESSAGE value="Refactor pending transactions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor pending transactions" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/bet_app@Rails_console__bet_app.rcov" NAME="Rails console: bet_app Coverage Results" MODIFIED="1571658227429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bet_app" />
