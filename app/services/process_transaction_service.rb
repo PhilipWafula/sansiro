@@ -31,7 +31,6 @@ class ProcessTransactionService
       SmsLeopardsWorker.perform_async(recipient,
                                       'The amount sent is invalid, please send 50 for regular, 100 for premium or 80 for Jackpot',
                                       default_sender(request['business_number']))
-      process_transaction_logger.info 'Invalid amount paid'
     end
     request['subscription_package'] = subscription_package
   end
@@ -59,7 +58,6 @@ class ProcessTransactionService
                                         default_sender(request['business_number']))
       end
       PendingTransaction.new(request).save!
-      process_transaction_logger.info 'Pending transaction logged.'
     else
       request['child_message_status'] = 'Scheduled'
       if sender_account.blank?
@@ -75,7 +73,7 @@ class ProcessTransactionService
     # get subscription package
     subscription_package = request['subscription_package']
     # get transaction date
-    transaction_date = request['transaction_timestamp'].to_date
+    transaction_date = request['transaction_timestamp']
     # get message recipient
     current_time = Time.now
     # get tip
@@ -94,6 +92,8 @@ class ProcessTransactionService
     case business_number
     when '598771'
       'OFFSIDE'
+    when '810364'
+      'SANSIROTECH'
     else
       'SANSIROTECH'
     end

@@ -77,6 +77,10 @@ class Admin::PendingTransactionsController < ApplicationController
                       child_message_status: pending_transaction.child_message_status }.to_json
       puts 'RESULT TRANSACTION', transaction
       ProcessTransactionService.new(JSON.parse(transaction)).process_request
+
+      sleep(30)
+      pending_transaction.destroy
+      redirect_to admin_resolved_transactions_path
     end
   end
 end

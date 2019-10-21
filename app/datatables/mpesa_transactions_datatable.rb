@@ -8,9 +8,9 @@ class MpesaTransactionsDatatable < AjaxDatatablesRails::ActiveRecord
       # id: { source: "User.id", cond: :eq },
       # name: { source: "User.name", cond: :like }
       id: { source: 'MpesaTransaction.id' },
-      first_name: { source: 'MpesaTransaction.first_name' },
-      last_name: { source: 'MpesaTransaction.last_name' },
+      full_name: { source: 'MpesaTransaction.full_name' },
       amount: { source: 'MpesaTransaction.amount' },
+      business_number: { source: 'MpesaTransaction.business_number' },
       subscription_package: { source: 'MpesaTransaction.subscription_package' },
       sender_phone: { source: 'MpesaTransaction.sender_phone' },
       transaction_timestamp: { source: 'MpesaTransaction.transaction_timestamp' },
@@ -25,9 +25,9 @@ class MpesaTransactionsDatatable < AjaxDatatablesRails::ActiveRecord
         # id: pt.id,
         # name: pt.name
         id: pt.id,
-        first_name: pt.first_name,
-        last_name: pt.last_name,
+        full_name: pt.full_name,
         amount: pt.amount,
+        business_number: pt.business_number,
         subscription_package: pt.subscription_package,
         sender_phone: pt.sender_phone,
         transaction_timestamp: pt.transaction_timestamp&.strftime('%Y-%m-%d %T'),

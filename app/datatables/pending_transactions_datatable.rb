@@ -8,9 +8,9 @@ class PendingTransactionsDatatable < AjaxDatatablesRails::ActiveRecord
       # id: { source: "User.id", cond: :eq },
       # name: { source: "User.name", cond: :like }
       id: { source: 'PendingTransaction.id' },
-      first_name: { source: 'PendingTransaction.first_name' },
-      last_name: { source: 'PendingTransaction.last_name' },
+      full_name: { source: 'PendingTransaction.full_name' },
       amount: { source: 'PendingTransaction.amount' },
+      business_number: { source: 'PendingTransaction.business_number' },
       subscription_package: { source: 'PendingTransaction.subscription_package' },
       sender_phone: { source: 'PendingTransaction.sender_phone' },
       transaction_timestamp: { source: 'PendingTransaction.transaction_timestamp' },
@@ -25,9 +25,9 @@ class PendingTransactionsDatatable < AjaxDatatablesRails::ActiveRecord
         # id: pt.id,
         # name: pt.name
         id: pt.id,
-        first_name: pt.first_name,
-        last_name: pt.last_name,
+        full_name: pt.full_name,
         amount: pt.amount,
+        business_number: pt.business_number,
         subscription_package: pt.subscription_package,
         sender_phone: pt.sender_phone,
         transaction_timestamp: pt.transaction_timestamp&.strftime('%Y-%m-%d %T'),

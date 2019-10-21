@@ -19,9 +19,9 @@ $ ->
     columns: [
 
       {data: 'id'}
-      {data: 'first_name'}
-      {data: 'last_name'}
+      {data: 'full_name' }
       {data: 'amount'}
+      {data: 'business_number'}
       {data: 'subscription_package'}
       {data: 'sender_phone'}
       {data: 'transaction_timestamp'}

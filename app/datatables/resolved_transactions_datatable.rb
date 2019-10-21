@@ -7,9 +7,9 @@ class ResolvedTransactionsDatatable < AjaxDatatablesRails::ActiveRecord
       # id: { source: "User.id", cond: :eq },
       # name: { source: "User.name", cond: :like }
       id: { source: 'ResolvedTransaction.id' },
-      first_name: { source: 'ResolvedTransaction.first_name' },
-      last_name: { source: 'ResolvedTransaction.last_name' },
+      full_name: { source: 'ResolvedTransaction.full_name' },
       amount: { source: 'ResolvedTransaction.amount' },
+      business_number: { source: 'ResolvedTransaction.business_number' },
       subscription_package: { source: 'ResolvedTransaction.subscription_package' },
       sender_phone: { source: 'ResolvedTransaction.sender_phone' },
       transaction_timestamp: { source: 'ResolvedTransaction.transaction_timestamp' },
@@ -24,9 +24,9 @@ class ResolvedTransactionsDatatable < AjaxDatatablesRails::ActiveRecord
         # id: record.id,
         # name: record.name
         id: resolved_transaction.id,
-        first_name: resolved_transaction.first_name,
-        last_name: resolved_transaction.last_name,
+        full_name: resolved_transaction.full_name,
         amount: resolved_transaction.amount,
+        business_number: resolved_transaction.business_number,
         subscription_package: resolved_transaction.subscription_package,
         sender_phone: resolved_transaction.sender_phone,
         transaction_timestamp: resolved_transaction.transaction_timestamp&.strftime('%Y-%m-%d %T'),
