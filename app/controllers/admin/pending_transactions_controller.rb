@@ -49,7 +49,6 @@ class Admin::PendingTransactionsController < ApplicationController
           if resolved_transaction.save!
             # delete pending transaction
             pending_transaction.destroy!
-            redirect_to admin_resolved_transactions_path and return
           else
             flash[:error] = "Could not resolve transaction. #{resolved_transaction.errors.full_messages.join('. ')}."
           end
@@ -60,6 +59,7 @@ class Admin::PendingTransactionsController < ApplicationController
         flash[:error] = 'No transaction'
       end
     end
+    redirect_to admin_resolved_transactions_path
   end
 
   private
