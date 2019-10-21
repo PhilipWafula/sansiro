@@ -3,20 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d2074074-1cbd-47a8-8466-f382c95193d0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/admin/mpesa_transactions.coffee" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/admin/mpesa_transactions.coffee" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/admin/pending_transactions.coffee" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/admin/pending_transactions.coffee" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/admin/resolved_transactions.coffee" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/admin/resolved_transactions.coffee" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/admin/pending_transactions_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/pending_transactions_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/datatables/mpesa_transactions_datatable.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/datatables/mpesa_transactions_datatable.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/datatables/pending_transactions_datatable.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/datatables/pending_transactions_datatable.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/datatables/resolved_transactions_datatable.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/datatables/resolved_transactions_datatable.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/mpesa_transaction.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/mpesa_transaction.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/pending_transaction.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/pending_transaction.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/resolved_transaction.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/resolved_transaction.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/process_transaction_service.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/process_transaction_service.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/mpesa_transactions/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/mpesa_transactions/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/pending_transactions/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/pending_transactions/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/resolved_transactions/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/resolved_transactions/index.html.erb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -402,7 +389,7 @@
       <workItem from="1571488094536" duration="13460000" />
       <workItem from="1571505021434" duration="903000" />
       <workItem from="1571548019933" duration="1660000" />
-      <workItem from="1571650918128" duration="4723000" />
+      <workItem from="1571650918128" duration="6333000" />
     </task>
     <task id="LOCAL-00001" summary="Added sms leopards support and integrated new kopokopo account.">
       <created>1569652729658</created>
@@ -432,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571549488533</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Refactor">
+      <created>1571655883802</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1571655883802</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -478,9 +472,10 @@
     <MESSAGE value="Added sms leopards support and integrated new kopokopo account." />
     <MESSAGE value="Refactored app to sms leopards" />
     <MESSAGE value="Ide files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ide files" />
+    <MESSAGE value="Refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/bet_app@Rails_console__bet_app.rcov" NAME="Rails console: bet_app Coverage Results" MODIFIED="1571500846882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bet_app" />
+    <SUITE FILE_PATH="coverage/bet_app@Rails_console__bet_app.rcov" NAME="Rails console: bet_app Coverage Results" MODIFIED="1571658227429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bet_app" />
   </component>
 </project>

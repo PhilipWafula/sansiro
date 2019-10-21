@@ -79,8 +79,18 @@ class Admin::PendingTransactionsController < ApplicationController
       ProcessTransactionService.new(JSON.parse(transaction)).process_request
 
       sleep(30)
-      pending_transaction.destroy
-      redirect_to admin_resolved_transactions_path
+      if pending_transaction.transaction_timestamp.to_date < Date.today
+        @resolved_transaction = ResolvedTransaction.new(JSON.parse(transaction))
+        if @resolved_transaction.save!
+          # delete pending transaction
+          pending_transaction.destroy
+          redirect_to admin_resolved_transactions_path
+        else
+          flash[:error] = "Could not resolve transaction. #{@resolved_transaction.errors.full_messages.join('. ')}."
+        end
+      else
+        flash[:error] = 'No transaction'
+      end
     end
   end
 end
