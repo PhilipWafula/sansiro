@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2074074-1cbd-47a8-8466-f382c95193d0" name="Default Changelist" comment="" />
+    <list default="true" id="d2074074-1cbd-47a8-8466-f382c95193d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.dependabot/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/process_transaction_service.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/process_transaction_service.rb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -428,6 +432,8 @@
       <workItem from="1571548019933" duration="1660000" />
       <workItem from="1571650918128" duration="15800000" />
       <workItem from="1571667754202" duration="2745000" />
+      <workItem from="1571844217201" duration="1151000" />
+      <workItem from="1572199442758" duration="1170000" />
     </task>
     <task id="LOCAL-00001" summary="Added sms leopards support and integrated new kopokopo account.">
       <created>1569652729658</created>

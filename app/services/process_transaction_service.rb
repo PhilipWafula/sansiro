@@ -76,8 +76,10 @@ class ProcessTransactionService
     transaction_date = request['transaction_timestamp'].to_date
     # get message recipient
     current_time = Time.now
+    # get default sender
+    sender = default_sender(request['business_number'])
     # get tip
-    Tip.where('tip_expiry > ? AND tip_package = ? AND tip_date = ?', current_time, subscription_package, transaction_date)
+    Tip.where('tip_expiry > ? AND tip_package = ? AND tip_date = ? AND tip_sender = ?', current_time, subscription_package, transaction_date, sender)
   end
 
   def process_transaction_logger
@@ -94,8 +96,10 @@ class ProcessTransactionService
       'OFFSIDE'
     when '810364'
       'SANSIROTECH'
+    when '230368'
+      'EUROPA_TECH'
     else
-      'SANSIROTECH'
+      process_transaction_logger.error('No sender found')
     end
   end
 
