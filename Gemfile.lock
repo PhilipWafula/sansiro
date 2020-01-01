@@ -168,7 +168,7 @@ GEM
     popper_js (1.14.5)
     psych (3.1.0)
     public_suffix (3.1.0)
-    puma (3.12.1)
+    puma (3.12.2)
     rack (2.0.8)
     rack-protection (2.0.5)
       rack
@@ -330,7 +330,7 @@ DEPENDENCIES
   ngrok-tunnel
   pg (>= 0.18, < 2.0)
   phony_rails
-  puma (~> 3.11)
+  puma (~> 3.12)
   rails (~> 5.2.3)
   rails_12factor
   rubocop (~> 0.66.0)
